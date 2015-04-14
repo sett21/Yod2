@@ -10,16 +10,25 @@ function cropImage(objName, realwidth, realheight, curImg){
     $('#imgOptions' + currentImage).hide();
     $('#imgCropCancel' + currentImage).show();
     $('#'+objName).animate({
-        width: realwidth,
-        height: realheight,
+        //width: realwidth,
+        //height: realheight,
     }, 300, function() {
         jcrop_api = $.Jcrop('#' + objName);
         jcrop_api.setOptions({
             onChange: setCoords,
             onSelect: setCoords,
+            trueSize: [realwidth,realheight],
             // minSize: [100, 100], 
             // maxSize: [100, 100], 
-            aspectRatio: 1, //square
+            //aspectRatio: 1, //square
+        }, function(){
+            // Use the API to get the real image size
+            var bounds = this.getBounds();
+            boundx = bounds[0];
+            boundy = bounds[0.75];
+            //trueSize: [ancho,alto],
+            // Store the API in the jcrop_api variable
+            jcrop_api = this;
         });
     });     
 }
