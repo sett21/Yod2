@@ -1,0 +1,251 @@
+
+/*Variable*/
+/*font*/
+.semibold{
+	font-family: 'semibold';
+}
+.ultralight{
+	font-family: 'ultralight';
+}
+.light{
+	font-family: 'light';
+}
+.extrabold{
+	font-family: 'extrabold';
+}
+
+@base: white;
+
+/* Main style*/
+body{
+	font-family: sans-serif;
+	color: @base;
+	background: black;
+}
+.main-container{
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	overflow: hidden;
+}
+.table{
+	display: table;
+	width: 100%;
+	position: relative;
+	box-sizing:border-box;
+}
+.table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+/*Menu*/
+#menu-trigger{
+	display: block;
+	width: 21px;
+	height: 23px;
+	background: url('img/menu.png') center center ; /**/
+	border:none;
+	position: fixed;
+	right: 20px;
+	top:22px;
+	z-index: 1000;
+	outline: none;
+	cursor: pointer;
+	opacity: 0.6;
+	transition:all 0.3s 0 ease-in-out;
+	-moz-transition:all 0.3s 0 ease-in-out;
+	-webkit-transition:all 0.3s 0 ease-in-out;
+	-o-transition:all 0.3s 0 ease-in-out;
+}
+#menu-trigger:hover{
+	opacity:1;
+}
+#menu-trigger.active{
+	background: url('img/close.png') center center ; /**/
+	opacity: 1;
+}
+#menu-trigger.active:hover{
+	opacity: 0.6;
+}
+.nav{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.75);
+	position: fixed;
+	z-index:3;
+	right: -100%;
+	-moz-transition:all .6s 0 ease-in-out;
+	-webkit-transition:all .6s 0 ease-in-out;
+	-o-transition:all .6s 0 ease-in-out;
+}
+.nav.active{
+	right: 0;
+}
+/*styling menu*/
+#main-menu a#m1{
+	.ultralight;
+}
+#main-menu a#m2{
+	.semibold;
+}
+#main-menu a#m3{
+	.light;
+}
+#main-menu a#m1, #main-menu a#m2, #main-menu a#m3{
+	font-size: 57px;
+}
+#main-menu a#m4{
+	.extrabold;
+}
+#main-menu a#m5{
+	.semibold;
+}
+#main-menu a#m4, #main-menu a#m5{
+	font-size: 67px;
+}
+#main-menu a#m6{
+	.light;
+}
+#main-menu a#m7{
+	.ultralight;
+}
+#main-menu a#m6, #main-menu a#m7{
+	font-size: 86px;
+}
+nav.cl-effect-2{
+	display: block;
+	width: 888px;
+	margin: 0 auto;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	padding: 0;
+	margin-top: -136px;
+	margin-left: -444px;
+	text-align:center;
+}
+
+
+/*Video*/
+.is_overlay{ display: block; width: 100%; height: 100%; }
+#trailer {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	overflow: hidden;
+}
+#trailer > video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; height: auto; 
+}
+/*@media (min-aspect-ratio: 16/9) {
+	#trailer > video { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+	#trailer > video { width: 300%; left: -100%; }
+}*/
+/* Если есть поддержка object-fit (Chrome/Chrome для Android, Safari в iOS 8 и Opera), используем его: */
+@supports (object-fit: cover) {
+	#trailer > video {
+		top: 0; left: 0;
+		width: 100%; height: 100%;
+		object-fit: cover;
+	}
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	// background: url(img/pat.png);
+	position: absolute;
+ }
+
+
+ /*About us*/
+#page2{
+  background: url('../img/aboutus-bg.jpg') no-repeat center center;
+  -moz-background-size: cover;
+  /* Firefox 3.6+ */
+  -webkit-background-size: cover;
+  /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: cover;
+  /* Opera 9.6+ */
+  background-size: cover;
+  /* Современные браузеры */
+}
+p.text-ab {
+  opacity: 0;
+  width: 813px;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: -10000px;*/
+  font-size: 55px;
+  font-family: 'semibold';
+  transition: all 0.8s 0s ease-in-out;
+  -moz-transition: all 0.8s 0s ease-in-out;
+  -webkit-transition: all 0.8s 0s ease-in-out;
+  -o-transition: all 0.8s 0s ease-in-out;
+}
+#trtr{
+  position: fixed;
+  top:10px;
+  left: 10px;
+  z-index: 1000;
+}
+p.text-ab.active {
+  margin-top: 0;
+  opacity: 1;
+}
+.map {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/map.png") center center no-repeat;
+  background-size: cover;
+}
+.dot {
+  background: red;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.map-container {
+  width: 1000px;
+  height: auto;
+}
+.map-container img {
+  width: 100%;
+}
+#projects {
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
+}
+.mapc {
+  width: 80%;
+  margin: 7% auto 0 auto;
+}
+.fp-controlArrow .fp-prev {
+  width: 33px;
+  height: 54px;
+  background: url("/img/arrows.png") no-repeat left center;
+}
