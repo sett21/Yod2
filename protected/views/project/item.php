@@ -29,7 +29,12 @@
 <div class="triger-info"></div>
 <div class="triger-down"></div>
 <i class="icon-info">i</i>
-<a class="icon-back" href="/">Back</a>
+<a class="icon-back" href="<?php if($item['type']=='1'){
+    echo '/architecture/';
+}
+else {
+    echo '/design/';
+}?>">Back</a>
 <div class="information">
 	<h2><?=$item['name']?></h2>
 	<p><?=$item['body']?></p>
