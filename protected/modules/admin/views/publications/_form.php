@@ -128,7 +128,7 @@ foreach($model->getPhotosList($model->id) as $val) { ?>
                 </div>
                 <div id="imgCropOption<?= $i; ?>" style="display:none;">
                     <a href="javascript: saveCrop('<?=$this->id?>', '/uploads/publications/list/<?=$model->id?>/<?=$val?>', 'Img<?= $i; ?>')" class="btn btn-sm btn-success">Сохранить</a>
-                    (W:<span id="imgW<?= $i; ?>"></span> / H:<span id="imgH<?= $i; ?>"></span>)
+                    <div>W:<span id="imgW<?= $i; ?>"></span> / H:<span id="imgH<?= $i; ?>"></span></div>
                 </div>
             </div>
     </div>
