@@ -107,8 +107,8 @@ class ProjectsController extends AdminController
 
 			move_uploaded_file($_FILES[$this->modelName]['tmp_name']['image'], $target_path_file);
 
-			$info = new SplFileInfo($target_path_file);
-			rename($target_path_file, $target_path.time().'.'.$info->getExtension());
+			// $info = new SplFileInfo($target_path_file);
+			// rename($target_path_file, $target_path.time().'.'.$info->getExtension());
 			// exit;
 		}
 		$this->redirect($_SERVER['HTTP_REFERER']);
