@@ -32,8 +32,6 @@ function cropImage(objName, realwidth, realheight, curImg){
 function setCoords(c)
 {
     $('#imgCropOption' + currentImage).show();
-    // variables can be accessed here as
-    // c.x, c.y, c.x2, c.y2, c.w, c.h
     imageX = c.x;
     imageY = c.y;
     imageWidth = c.w;
