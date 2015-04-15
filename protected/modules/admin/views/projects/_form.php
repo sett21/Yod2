@@ -129,7 +129,7 @@ foreach($model->getPhotosList($model->id) as $val) { ?>
         <div id="imgOptions<?= $i; ?>">
             <input type="hidden" value="0" name="delimg">
                 <div class="btn-group" role="group">
-                    <a href="/admin/publications/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();" class="btn btn-danger btn-sm">Удалить</a>
+                    <a href="/admin/projects/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();" class="btn btn-danger btn-sm">Удалить</a>
                     <a href="javascript: cropImage('Img<?= $i; ?>', <?php if(isset($size[0])) echo $size[0] ?>, <?php if(isset($size[1])) echo $size[1] ?>, <?= $i; ?>)" class="btn btn-primary btn-sm" id="cropLink<?= $i; ?>">Обрезать</a>
                 </div>
         </div>
