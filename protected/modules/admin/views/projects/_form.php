@@ -128,7 +128,7 @@ foreach($model->getPhotosList($model->id) as $val) { ?>
                 	<img src="/uploads/projects/list/<?=$model->id?>/<?=$val?>" width="80%" id="Img<?= $i; ?>">
                         <span id="imgOptions<?= $i; ?>">
                         	<input type="hidden" value="0" name="delimg">
-                        	<a href="/admin/publications/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();">Удалить</a>
+                        	<a href="/admin/projects/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();">Удалить</a>
                              <i class="fa fa-crop"></i> <a href="javascript: cropImage('Img<?= $i; ?>', <?php if(isset($size[0])) echo $size[0] ?>, <?php if(isset($size[1])) echo $size[1] ?>, <?= $i; ?>)" class="undrlne" id="cropLink<?= $i; ?>">Обрезать</a>
                         </span>
                         <span id="imgCropCancel<?= $i; ?>" style="display:none;">
