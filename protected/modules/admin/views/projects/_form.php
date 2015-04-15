@@ -120,7 +120,7 @@
 
 <div class="row">
 <?php
-$i=1;
+$i=2;
 foreach($model->getPhotosList($model->id) as $val) { ?>
     <div class="col-md-3 fileupload-new thumbnail" style="text-align:center;">
         <div class="row">
@@ -129,14 +129,14 @@ foreach($model->getPhotosList($model->id) as $val) { ?>
                         <span id="imgOptions<?= $i; ?>">
                         	<input type="hidden" value="0" name="delimg">
                         	<a href="/admin/publications/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();">Удалить</a>
-                             <i class="fa fa-crop"></i> <a href="javascript: cropImage('Img<?= $i; ?>', <?php if(isset($size[0])) echo $size[0] ?>, <?php if(isset($size[1])) echo $size[1] ?>, 1)" class="undrlne" id="cropLink2">Обрезать</a>
+                             <i class="fa fa-crop"></i> <a href="javascript: cropImage('Img<?= $i; ?>', <?php if(isset($size[0])) echo $size[0] ?>, <?php if(isset($size[1])) echo $size[1] ?>, <?= $i; ?>)" class="undrlne" id="cropLink<?= $i; ?>">Обрезать</a>
                         </span>
-                        <span id="imgCropCancel<?= $i; ?>" style="display:block;">
+                        <span id="imgCropCancel<?= $i; ?>" style="display:none;">
                             <i class="fa fa-times"></i> <a href="javascript: cancelCrop('Img<?= $i; ?>')" class="undrlne">Отменить</a>
                         </span>
-                        <span id="imgCropOption<?= $i; ?>" style="display:block;">
+                        <span id="imgCropOption<?= $i; ?>" style="display:none;">
                            | <i class="fa fa-save"></i> <a href="javascript: saveCrop('<?=$this->id?>', '/uploads/projects/list/<?=$model->id?>/<?=$val?>', 'Img<?= $i; ?>')" class="undrlne">Сохранить</a>
-                            (W:<span id="imgW1"></span> / H:<span id="imgH1"></span>)
+                            (W:<span id="imgW<?= $i; ?>"></span> / H:<span id="imgH<?= $i; ?>"></span>)
                         </span>
             </div>
         <!--<img src="/uploads/projects/list/<?=$model->id?>/<?=$val?>" width="80%">-->

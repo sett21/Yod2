@@ -7384,3 +7384,11 @@ Stack trace:
 REQUEST_URI=/themes/front/js/modernizr.custom.js
 HTTP_REFERER=http://yod.local:8888/
 ---
+2015/04/15 11:54:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/favicon.png".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('images/favicon....')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/favicon.png
+---
