@@ -7392,3 +7392,15 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/images/favicon.png
 ---
+2015/04/15 12:14:19 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Publications".
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/PublicationsController.php (53)
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (68)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 12:14:24 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Publications".
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/PublicationsController.php (53)
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (68)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 12:14:32 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Publications".
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/PublicationsController.php (53)
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (68)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
