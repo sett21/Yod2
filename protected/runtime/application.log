@@ -7521,3 +7521,183 @@ in /Users/alexandr/Sites/yod-prod/index.php (12)
 in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php (53)
 in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (68)
 in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 14:19:43 [error] [php] rename(/Users/alexandr/Sites/yod-prod/uploads/projects/list/35/,/Users/alexandr/Sites/yod-prod/uploads/projects/list/35/1429096783.): Invalid argument (/Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php:111)
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(133): ProjectsController->runAction()
+#2 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /Users/alexandr/Sites/yod-prod/framework/web/filters/CInlineFilter.php(58): ProjectsController->filterAccessControl()
+#5 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#8 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(282): ProjectsController->run()
+#9 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/alexandr/Sites/yod-prod/index.php(12): CWebApplication->run()
+REQUEST_URI=/admin/projects/imglistadd
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php (111)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 14:20:02 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Projects".
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php (53)
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (68)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 14:20:07 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Projects".
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php (53)
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (68)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 14:21:15 [error] [php] rename(/Users/alexandr/Sites/yod-prod/uploads/projects/list/36/,/Users/alexandr/Sites/yod-prod/uploads/projects/list/36/1429096875.): Invalid argument (/Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php:111)
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(133): ProjectsController->runAction()
+#2 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /Users/alexandr/Sites/yod-prod/framework/web/filters/CInlineFilter.php(58): ProjectsController->filterAccessControl()
+#5 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(265): ProjectsController->runActionWithFilters()
+#8 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(282): ProjectsController->run()
+#9 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/alexandr/Sites/yod-prod/index.php(12): CWebApplication->run()
+REQUEST_URI=/admin/projects/imglistadd
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php (111)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 14:22:11 [error] [exception.WideImage_Exception] exception 'WideImage_Exception' with message 'Can't crop outside of an image.' in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Operation/Crop.php:67
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Image.php(709): WideImage_Operation_Crop->execute(Object(WideImage_TrueColorImage), '196.74418604651...', '188.31858407079...', '439.53488372093...', '220.53097345132...')
+#1 /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php(31): WideImage_Image->crop('196.74418604651...', '188.31858407079...', '439.53488372093...', '220.53097345132...')
+#2 /Users/alexandr/Sites/yod-prod/framework/web/actions/CInlineAction.php(49): ProjectsController->actionImageEdit()
+#3 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/alexandr/Sites/yod-prod/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(282): CController->run('imageedit')
+#12 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/projects/...')
+#13 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/projects/imageedit/
+HTTP_REFERER=http://yod.local:8888/admin/projects/update/id/36/
+---
+2015/04/15 14:22:12 [error] [exception.WideImage_Exception] exception 'WideImage_Exception' with message 'Can't crop outside of an image.' in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Operation/Crop.php:67
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Image.php(709): WideImage_Operation_Crop->execute(Object(WideImage_TrueColorImage), '196.74418604651...', '188.31858407079...', '439.53488372093...', '220.53097345132...')
+#1 /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php(31): WideImage_Image->crop('196.74418604651...', '188.31858407079...', '439.53488372093...', '220.53097345132...')
+#2 /Users/alexandr/Sites/yod-prod/framework/web/actions/CInlineAction.php(49): ProjectsController->actionImageEdit()
+#3 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/alexandr/Sites/yod-prod/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(282): CController->run('imageedit')
+#12 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/projects/...')
+#13 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/projects/imageedit/
+HTTP_REFERER=http://yod.local:8888/admin/projects/update/id/36/
+---
+2015/04/15 14:22:13 [error] [exception.WideImage_Exception] exception 'WideImage_Exception' with message 'Can't crop outside of an image.' in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Operation/Crop.php:67
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Image.php(709): WideImage_Operation_Crop->execute(Object(WideImage_TrueColorImage), '196.74418604651...', '188.31858407079...', '439.53488372093...', '220.53097345132...')
+#1 /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php(31): WideImage_Image->crop('196.74418604651...', '188.31858407079...', '439.53488372093...', '220.53097345132...')
+#2 /Users/alexandr/Sites/yod-prod/framework/web/actions/CInlineAction.php(49): ProjectsController->actionImageEdit()
+#3 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/alexandr/Sites/yod-prod/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(282): CController->run('imageedit')
+#12 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/projects/...')
+#13 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/projects/imageedit/
+HTTP_REFERER=http://yod.local:8888/admin/projects/update/id/36/
+---
+2015/04/15 14:22:13 [error] [exception.WideImage_Exception] exception 'WideImage_Exception' with message 'Can't crop outside of an image.' in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Operation/Crop.php:67
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Image.php(709): WideImage_Operation_Crop->execute(Object(WideImage_TrueColorImage), '196.74418604651...', '188.31858407079...', '439.53488372093...', '220.53097345132...')
+#1 /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php(31): WideImage_Image->crop('196.74418604651...', '188.31858407079...', '439.53488372093...', '220.53097345132...')
+#2 /Users/alexandr/Sites/yod-prod/framework/web/actions/CInlineAction.php(49): ProjectsController->actionImageEdit()
+#3 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/alexandr/Sites/yod-prod/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(282): CController->run('imageedit')
+#12 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/projects/...')
+#13 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/projects/imageedit/
+HTTP_REFERER=http://yod.local:8888/admin/projects/update/id/36/
+---
+2015/04/15 14:31:05 [error] [exception.WideImage_Exception] exception 'WideImage_Exception' with message 'Can't crop outside of an image.' in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Operation/Crop.php:67
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Image.php(709): WideImage_Operation_Crop->execute(Object(WideImage_TrueColorImage), '184.33734939759...', '134.65648854961...', '603.61445783132...', '318.47328244274...')
+#1 /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php(31): WideImage_Image->crop('184.33734939759...', '134.65648854961...', '603.61445783132...', '318.47328244274...')
+#2 /Users/alexandr/Sites/yod-prod/framework/web/actions/CInlineAction.php(49): ProjectsController->actionImageEdit()
+#3 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/alexandr/Sites/yod-prod/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(282): CController->run('imageedit')
+#12 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/projects/...')
+#13 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/projects/imageedit/
+HTTP_REFERER=http://yod.local:8888/admin/projects/update/id/36/
+---
+2015/04/15 14:55:21 [error] [exception.WideImage_Exception] exception 'WideImage_Exception' with message 'Can't crop outside of an image.' in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Operation/Crop.php:67
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/wideimage/Image.php(709): WideImage_Operation_Crop->execute(Object(WideImage_TrueColorImage), '875.50200803212...', '286.53271028037...', '1124.4979919678...', '591.75233644859...')
+#1 /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php(31): WideImage_Image->crop('875.50200803212...', '286.53271028037...', '1124.4979919678...', '591.75233644859...')
+#2 /Users/alexandr/Sites/yod-prod/framework/web/actions/CInlineAction.php(49): ProjectsController->actionImageEdit()
+#3 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Users/alexandr/Sites/yod-prod/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Users/alexandr/Sites/yod-prod/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/alexandr/Sites/yod-prod/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(282): CController->run('imageedit')
+#12 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/projects/...')
+#13 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/projects/imageedit/
+HTTP_REFERER=http://yod.local:8888/admin/projects/update/id/20/
+---
+2015/04/15 14:58:04 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Projects".
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php (53)
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (77)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 14:58:14 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Projects".
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php (53)
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (77)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 14:58:32 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Projects".
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php (53)
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (77)
+in /Users/alexandr/Sites/yod-prod/index.php (12)

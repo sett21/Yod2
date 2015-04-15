@@ -18,6 +18,7 @@ function cropImage(objName, realwidth, realheight, curImg){
             onChange: setCoords,
             onSelect: setCoords,
             trueSize: [realwidth,realheight],
+            aspectRatio: 1.66,
         }, function(){
             // Use the API to get the real image size
             var bounds = this.getBounds();
