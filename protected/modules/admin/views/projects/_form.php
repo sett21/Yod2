@@ -122,7 +122,8 @@
 <?php
 $i=2;
 foreach($model->getPhotosList($model->id) as $val) { ?>
-    <div class="col-md-3 fileupload-new thumbnail" style="text-align:center; background:#eaeaea;">
+    
+    <!-- <div class="col-md-6 fileupload-new thumbnail" style="text-align:center; background:#eaeaea; height:300px;">
         <div class="wrap-img" style="position:relative; margin:0 auto; width:100%; min-width:90px; max-width:100%; height:200px; overflow:hidden;">
            	<img src="/uploads/projects/list/<?=$model->id?>/<?=$val?>" width="80%" id="Img<?= $i; ?>" style="position:absolute; left:0; top:0; width:100%;">
         </div>
@@ -137,12 +138,39 @@ foreach($model->getPhotosList($model->id) as $val) { ?>
             <a href="javascript: cancelCrop('Img<?= $i; ?>')" class="btn btn-sm btn-warning">Отменить</a>
         </div>
         <div id="imgCropOption<?= $i; ?>" style="display:none;">
-           <a href="javascript: saveCrop('<?=$this->id?>', '/uploads/projects/list/<?=$model->id?>/<?=$val?>', 'Img<?= $i; ?>')" class="btn btn-sm btn-success">Сохранить</a>
+           <a href="javascript: saveCrop('<?=$this->id?>', '/uploads/projects/list/<?=$model->id?>/<?=$val?>', 'Img<?= $i; ?>')" class="btn btn-sm btn-success">Сохранить</a> -->
             <!-- (W:<span id="imgW<?= $i; ?>"></span> / H:<span id="imgH<?= $i; ?>"></span>) -->
-        </div>
+        <!-- </div> -->
         <!--<img src="/uploads/projects/list/<?=$model->id?>/<?=$val?>" width="80%">-->
         <!--<a href="/admin/projects/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();">Удалить</a>-->
+    <!-- </div> -->
+<p>Изображение № <?= $i - 1; ?></p>
+<div class="col-md-12 fileupload-new thumbnail" style="text-align:center; background:#eaeaea;">
+    <div class="row">
+        <div class="wrap-img col-md-8"> <!-- style="position:relative; margin:0 auto; width:100%; min-width:90px; max-width:100%; height:200px; overflow:hidden;" -->
+            <img src="/uploads/projects/list/<?=$model->id?>/<?=$val?>" id="Img<?= $i; ?>" width="100%">
+        </div>
+        <div class="col-md-4">
+            <div id="imgOptions<?= $i; ?>">
+                <input type="hidden" value="0" name="delimg">
+                <div class="btn-group" role="group">
+                    <a href="/admin/projects/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();" class="btn btn-danger btn-sm">Удалить</a>
+                    <a href="javascript: cropImage('Img<?= $i; ?>', <?php if(isset($size[0])) echo $size[0] ?>, <?php if(isset($size[1])) echo $size[1] ?>, <?= $i; ?>)" class="btn btn-primary btn-sm" id="cropLink<?= $i; ?>">Обрезать</a>
+                </div>
+            </div>
+            <div id="imgCropCancel<?= $i; ?>" style="display:none;">
+                <a href="javascript: cancelCrop('Img<?= $i; ?>')" class="btn btn-sm btn-warning">Отменить</a>
+            </div>
+            <div id="imgCropOption<?= $i; ?>" style="display:none;">
+                <a href="javascript: saveCrop('<?=$this->id?>', '/uploads/projects/list/<?=$model->id?>/<?=$val?>', 'Img<?= $i; ?>')" class="btn btn-sm btn-success">Сохранить</a>
+                (W:<span id="imgW<?= $i; ?>"></span> / H:<span id="imgH<?= $i; ?>"></span>)
+            </div>
+        </div>
     </div>
+    <!--<img src="/uploads/projects/list/<?=$model->id?>/<?=$val?>" width="80%">-->
+    <!--<a href="/admin/projects/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();">Удалить</a>-->
+</div>
+
     <?php $i++; ?>
 <?php } ?>
 </div>

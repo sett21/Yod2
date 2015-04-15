@@ -9,29 +9,34 @@ function cropImage(objName, realwidth, realheight, curImg){
     currentImage = curImg;
     $('#imgOptions' + currentImage).hide();
     $('#imgCropCancel' + currentImage).show();
-    $('#'+objName).animate({
+    // $('#'+objName).animate({
         //width: realwidth,
         //height: realheight,
-    }, 300, function() {
+    // }, 300, function() {
+
         jcrop_api = $.Jcrop('#' + objName);
+
         jcrop_api.setOptions({
             onChange: setCoords,
             onSelect: setCoords,
             trueSize: [realwidth,realheight],
-            aspectRatio: 1.66,
-        }, function(){
+            setSelect:   [ 100, 100, 50, 50 ],
+            aspectRatio: 0,
+            keySupport: false
+        }, 
+        function(){
             // Use the API to get the real image size
             var bounds = this.getBounds();
             boundx = bounds[0];
-            boundy = bounds[0.75];
+            boundy = bounds[0];
             // Store the API in the jcrop_api variable
             jcrop_api = this;
         });
-    });     
+    // });     
 }
 
-function setCoords(c)
-{
+function setCoords(c){
+
     $('#imgCropOption' + currentImage).show();
     imageX = c.x;
     imageY = c.y;
@@ -53,8 +58,8 @@ function saveCrop(module, src, objName){
 
         d = new Date();
         $("#"+objName).attr("src", src+'?'+d.getTime());
-        $('#'+objName).css('height', '150'); 
-        $('#'+objName).css('width', 'auto'); 
+        // $('#'+objName).css('height', '150'); 
+        // $('#'+objName).css('width', 'auto'); 
         $('#imgCropOption' + currentImage).hide();     
         $('#imgCropCancel' + currentImage).hide();
         $('#imgOptions' + currentImage).show();
