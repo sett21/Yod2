@@ -86,13 +86,30 @@
 
 <div class="row">
 <?php
+$i=2;
 foreach($model->getPhotosList($model->id) as $val) { ?>
     <div class="col-md-3 fileupload-new thumbnail" style="text-align:center;">
         <div class="row">
-        <img src="/uploads/publications/list/<?=$model->id?>/<?=$val?>" width="80%">
+        	<div class="fileupload-new thumbnail" style="text-align:center;">
+                	<img src="/uploads/publications/list/<?=$model->id?>/<?=$val?>" width="80%" id="Img<?= $i; ?>">
+                        <span id="imgOptions<?= $i; ?>">
+                        	<input type="hidden" value="0" name="delimg">
+                        	<a href="/admin/publications/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();">Удалить</a>
+                             <i class="fa fa-crop"></i> <a href="javascript: cropImage('Img<?= $i; ?>', <?php if(isset($size[0])) echo $size[0] ?>, <?php if(isset($size[1])) echo $size[1] ?>, <?= $i; ?>)" class="undrlne" id="cropLink<?= $i; ?>">Обрезать</a>
+                        </span>
+                        <span id="imgCropCancel<?= $i; ?>" style="display:none;">
+                            <i class="fa fa-times"></i> <a href="javascript: cancelCrop('Img<?= $i; ?>')" class="undrlne">Отменить</a>
+                        </span>
+                        <span id="imgCropOption<?= $i; ?>" style="display:none;">
+                           | <i class="fa fa-save"></i> <a href="javascript: saveCrop('<?=$this->id?>', '/uploads/publications/list/<?=$model->id?>/<?=$val?>', 'Img<?= $i; ?>')" class="undrlne">Сохранить</a>
+                            (W:<span id="imgW<?= $i; ?>"></span> / H:<span id="imgH<?= $i; ?>"></span>)
+                        </span>
+            </div>
+        <!--<img src="/uploads/publications/list/<?=$model->id?>/<?=$val?>" width="80%">-->
         </div>
-        <a href="/admin/publications/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();">Удалить</a>
+        <!--<a href="/admin/publications/delimg/?id=<?=$model->id?>&img=<?=$val?>" onclick="return confirmItemDelete();">Удалить</a>-->
     </div>
+    <?php $i++; ?>
 <?php } ?>
 </div>
 
