@@ -7513,3 +7513,11 @@ in /Users/alexandr/Sites/yod-prod/index.php (12)
 in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php (53)
 in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (68)
 in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 14:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Publications".
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/PublicationsController.php (53)
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (68)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
+2015/04/15 14:17:24 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Projects".
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/controllers/ProjectsController.php (53)
+in /Users/alexandr/Sites/yod-prod/protected/modules/admin/components/AdminController.php (68)
+in /Users/alexandr/Sites/yod-prod/index.php (12)
