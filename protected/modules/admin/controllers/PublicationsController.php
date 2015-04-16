@@ -101,8 +101,11 @@ class PublicationsController extends AdminController
 	public function actionImglistadd()
 	{
 		if(isset($_FILES[$this->modelName]['tmp_name'])) {
-			$target_path = Yii::getPathOfAlias('webroot').'/uploads/'.strtolower($this->modelName).'/list/'.$_POST['id'].'/';
-			$target_path_file = $target_path . $_FILES[$this->modelName]['name']['image']; 
+		$target_path = Yii::getPathOfAlias('webroot').'/uploads/'.strtolower($this->modelName).'/list/'.$_POST['id'].'/';
+            	$extension="jpg";
+            	$var= date('Y'). date('m') . date('d') . date('H') . date('i') . date('s'). '.' .$extension;
+			$target_path_file = $target_path . $_FILES[$this->modelName]['name']['image'] ;
+			move_uploaded_file($_FILES[$this->modelName]['tmp_name']['image'] , "$target_path/$var");
 
 			move_uploaded_file($_FILES[$this->modelName]['tmp_name']['image'], $target_path_file);
 
