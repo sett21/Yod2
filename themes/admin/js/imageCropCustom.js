@@ -67,8 +67,8 @@ function saveCrop(module, src, objName){
 }
 
 function cancelCrop(objName){
-    $('#'+objName).css('height', '150'); 
-    $('#'+objName).css('width', 'auto'); 
+    // $('#'+objName).css('height', '150'); 
+    // $('#'+objName).css('width', 'auto'); 
     jcrop_api.destroy();
     $('#imgCropOption' + currentImage).hide();        
     $('#imgCropCancel' + currentImage).hide();
