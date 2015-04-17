@@ -125,18 +125,18 @@
 	<div class="section" data-anchor="page-4" id="page4" style="background-image: url(/uploads/blocks/<?=$contacts['img']?>); background-size:cover; ">
 	
 		<div class="cnt-txt">
-	        	    <?= $contacts['body']?>
-	        	    <?= $contacts['name']?>
-	<!--            <h3>Ukraine Kiev</h3>-->
-	<!--            <p>Mehanizatorov 2a</p>-->
-	<!--            <br>-->
-	<!--            <p>Zverev Artem: +380688303675<br>-->
-	<!--            Sharf Artur: +380678480504</p>-->
-	<!--            <br><br>-->
-	<!--            <h3>Usa Florida Miami</strong></h3>-->
-	<!--            <br>-->
-	<!--            <p>+19174000230<br>-->
-	<!--            Artem Zverev & Artur Sharf</p>-->
+	        	    <?= // $contacts['body']?>
+	        	    <?= // $contacts['name']?>
+	           <h3>Ukraine Kiev</h3>
+	           <p>Mehanizatorov 2a</p>
+	           <br>
+	           <p>Zverev Artem: +380688303675<br>
+	           Sharf Artur: +380678480504</p>
+	           <br><br>
+	           <h3>Usa Florida Miami</strong></h3>
+	           <br>
+	           <p>+19174000230<br>
+	           <p>Artem Zverev & Artur Sharf</p>
         	</div>
 	</div>
 </div>
