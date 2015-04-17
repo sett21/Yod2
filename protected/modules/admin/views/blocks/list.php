@@ -25,7 +25,6 @@
 		'items' => $model->search(), 
 		'columns'=>array(
 			'id',
-			'img',
 			'name',
 		),
 		'model'=>$model,	
