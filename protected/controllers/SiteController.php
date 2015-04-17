@@ -19,7 +19,7 @@ class SiteController extends Controller
 		$this->render('index', 
 					   array(
 					   		'about'=>$about['body'],
-					   		'contacts'=>$contacts['body'],
+					   		'contacts'=>$contacts,
 					   		'team'=>$team,
 					   		'bestProjects'=>$bestProjects,
 					   	)
