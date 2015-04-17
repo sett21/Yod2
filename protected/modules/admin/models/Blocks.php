@@ -77,8 +77,9 @@ class Blocks extends CActiveRecord
         /* SEARCH PART */
         $searchColumns = array(
             'id',
-            'name',
             'img',
+            'name',
+            
         );
 
         $criteria = new CDbCriteria;
