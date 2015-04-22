@@ -97,13 +97,13 @@
                             </a>
                             <ul class="socials">
                                 <li class="fb">
-                                    <a href="#" onClick="Share.facebook('http://yodezeen.atrubachev.dev.gns-it.com/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.atrubachev.dev.gns-it.com/uploads/projects/<?=$item['img']?>','<?=$item['location']?>')">FB</a>
+                                    <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/projects/<?=$item['img']?>','<?=$item['location']?>')">FB</a>
                                 </li>
                                 <li class="tw">
-                                    <a href="#" onClick="Share.twitter('http://yodezeen.atrubachev.dev.gns-it.com/project/item/<?=$item['id']?>','<?=$item['name']?>')">Твитнуть</a>
+                                    <a href="#" onClick="Share.twitter('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>')">Твитнуть</a>
                                 </li>
                                 <li class="pin">
-                                    <a href="https://www.pinterest.com/pin/create/button/?url=http://yodezeen.atrubachev.dev.gns-it.com/project/item/<?=$item['id']?>&media=http://yodezeen.atrubachev.dev.gns-it.com/uploads/projects/<?=$item['img']?>&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" >PIN</a>
+                                    <a href="https://www.pinterest.com/pin/create/button/?url=http://yodezeen.net/project/item/<?=$item['id']?>&media=http://yodezeen.net/uploads/projects/<?=$item['img']?>&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" >PIN</a>
                                 </li>
                                 <!--<li class="inst"><a href="#">TW</a></li>-->
                             </ul>
