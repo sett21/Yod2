@@ -1,0 +1,17 @@
+.cbp-rfgrid.command > li{
+  width: 20% !important;
+  background: black;
+}
+
+@media (max-width: 1400px) {
+  .cbp-rfgrid.command > li{
+    width: 25% !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cbp-rfgrid.command > li{
+    width: 33.333% !important;
+    background: black;
+  }
+}

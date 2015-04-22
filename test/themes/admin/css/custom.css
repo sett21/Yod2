@@ -1,0 +1,47 @@
+.form-control{color: #000;}
+
+i.active{
+	color: green;
+}
+i.no-active{
+	color: red;
+}
+.gns-actions a{
+	margin: 0 10px;
+}
+.gns-actions a:hover{
+	color:gray;
+}
+
+.tree .tree-actions > i.active, .tree .tree-actions > i.active:hover{
+	color: green;
+}
+
+.tree .tree-actions > i.no-active, .tree .tree-actions > i.no-active:hover{
+	color: red;
+}
+
+.tree a{text-decoration: underline;}
+.tree a:hover{text-decoration: none;}
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th, .adv-table table tr td{vertical-align: middle;}
+
+
+table a{text-decoration: underline}
+.undrlne{text-decoration: underline}
+
+.h60{height: 60px;}
+
+.pagination{margin: -5px 0px 10px 0px;}
+
+.tal{text-align: left !important;}
+
+.pet-info{
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 33px;
+	width: 96.6%;
+	font-weight: bolder;
+	padding-left: 12px;
+	display: none;
+}
