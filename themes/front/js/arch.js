@@ -42,11 +42,11 @@ $(function (){
 		anchors: ['page-1','page-2','page-3','page-4'],
 		menu: '#mainMenu',
 		afterRender: function(){
-			mainVideo.play();
+			//mainVideo.play();
 		},
 		onLeave: function(index, nextIndex, direction){
 			if(index === 1 || index === 3){
-			 	mainVideo.pause();
+			 //	mainVideo.pause();
 			}
 		},
 		afterLoad: function(anchorLink, index){
@@ -54,7 +54,7 @@ $(function (){
 				textAbout.addClass('active');
 			}
 			if(index == 1){
-				mainVideo.play();
+				//mainVideo.play();
 			}
 		},
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
