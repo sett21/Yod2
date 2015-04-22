@@ -146,7 +146,6 @@ else {
 			scrollingSpeed: 300,
 			easingcss3: 'linear',
 			easing: 'linear',
-			loopBottom: true,
         	navigationPosition: 'right',
 			menu: '#mainMenu',
 		});
