@@ -28,7 +28,7 @@
 	<div class="section" id="page1">
 		<div class="slide"  data-anchor="splash" id="splash-slide">
 			<div id="trailer" class="is_overlay">
-				<video id="video" width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto">
+				<video id="video" width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto" poster="/themes/front/video/mainpage.jpg" tabindex="0">
 					<source src="/themes/front/video/mainpage.m4v" type="video/mp4" />
 					<source src="/themes/front/video/mainpage.webm" type="video/webm" />
 					<source src="/themes/front/video/mainpage.ogv" />
