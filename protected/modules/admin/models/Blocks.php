@@ -178,14 +178,4 @@ class Blocks extends CActiveRecord
             return false;
         }
     }
-
-    protected function beforeSave()
-    {
-        if (parent::beforeSave()) {
-            $this->img = str_replace(" ", "_", $this->img);
-        }
-        else {
-            return false;
-        }
-    }
 }
