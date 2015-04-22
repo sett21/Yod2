@@ -7,22 +7,14 @@ class ProjectController extends Controller
 
 	public function actionItem()
 	{
+        $projectId = (int)$_GET['id'];
 		$item = Projects::model()->findByAttributes(array(
     		'status' => '1',
-    		'id' => (int)$_GET['id'],
-            'type'=>array(1,2),
+    		'id' => $projectId,
+            'type'=>array(1, 2),
+		));
 
-
-
-		));	
-
-        $dir = Yii::app()->basePath . '/../uploads/projects/list/' . (int)$_GET['id'];
-        $dh  = opendir($dir);
-        $files = array();
-        while (false !== ($filename = readdir($dh))) {
-            if($filename != '.' && $filename != '..')
-                $files[] = $filename;
-        }      		
+        $files = $item->getPhotosList($projectId);
 
 		$this->renderPartial('item', 
 					   array(

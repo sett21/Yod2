@@ -101,12 +101,14 @@ class ProjectsController extends AdminController
 
 	public function actionImglistadd()
 	{
-		if(isset($_FILES[$this->modelName]['tmp_name'])) {
+		if (isset($_FILES[$this->modelName]['tmp_name'])) {
 			$target_path = Yii::getPathOfAlias('webroot').'/uploads/'.strtolower($this->modelName).'/list/'.$_POST['id'].'/';
             		$extension="jpg";
             		$userFirstName="archi";
         		 //$var= date('Y-m-d') . '-' . $userFirstName . '-' . rand(1, 99999) . '.' .$extension;
-        		 $var= date('Y'). date('m') . date('d') . date('H') . date('i') . date('s'). '.' .$extension;
+//        		 $var= date('Y'). date('m') . date('d') . date('H') . date('i') . date('s'). '.' .$extension;
+//                  $var = sha1(uniqid(mt_rand(), true));
+                    $var = time();
 			$target_path_file = $target_path . $_FILES[$this->modelName]['name']['image'] ;
 			move_uploaded_file($_FILES[$this->modelName]['tmp_name']['image'] , "$target_path/$var");
 			// $info = new SplFileInfo($target_path_file);

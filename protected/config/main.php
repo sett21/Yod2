@@ -53,21 +53,13 @@ return array(
 		),
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=yodyod',
+			'connectionString' => 'mysql:host=mshost.mysql.ukraine.com.ua;dbname=mshost_yodezeen',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'root',
+			'username' => 'mshost_yodezeen',
+			'password' => 'w3dfutxq',
 			'charset' => 'utf8',
 			'tablePrefix'=>'yo_',
 		),
-		// 'db'=>array(
-		// 	'connectionString' => 'mysql:host=mshost.mysql.ukraine.com.ua;dbname=mshost_yodezeen',
-		// 	'emulatePrepare' => true,
-		// 	'username' => 'mshost_yodezeen',
-		// 	'password' => 'w3dfutxq',
-		// 	'charset' => 'utf8',
-		// 	'tablePrefix'=>'yo_',
-		// ),
 
 		// 'db'=>array(
 		// 	'connectionString' => 'mysql:host=localhost;dbname=gtest2',

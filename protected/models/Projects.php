@@ -147,15 +147,14 @@ class Projects extends CActiveRecord
      */    
     public function getPhotosList($projectId) {
         $this->createFolder($projectId);
-
-        $files = array();
-
         $dir = Yii::app()->basePath . '/../uploads/' . strtolower(get_class($this)) . '/list/' . $projectId;
-        $dh  = opendir($dir);
-        while (false !== ($filename = readdir($dh))) {
-            if($filename != '.' && $filename != '..')
-                $files[] = $filename;
-        }        
+        $files = scandir($dir, SCANDIR_SORT_ASCENDING);
+
+        foreach($files as $key => $file) {
+            if (in_array($file, array('.', '..'))) {
+                unset($files[$key]);
+            }
+        }
 
         return $files;
     }

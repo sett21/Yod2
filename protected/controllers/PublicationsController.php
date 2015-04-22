@@ -17,18 +17,13 @@ class PublicationsController extends Controller
 
 	public function actionItem()
 	{
+        $publicationId = (int)$_GET['id'];
 		$item = Publications::model()->findByAttributes(array(
     		'status' => '1',
-    		'id' => (int)$_GET['id'],
+    		'id' => $publicationId,
 		));	
 
-        $dir = Yii::app()->basePath . '/../uploads/publications/list/' . (int)$_GET['id'];
-        $dh  = opendir($dir);
-        $files = array();
-        while (false !== ($filename = readdir($dh))) {
-            if($filename != '.' && $filename != '..')
-                $files[] = $filename;
-        }      		
+        $files = $item->getPhotosList($publicationId);
 
 		$this->renderPartial('item', 
 					   array(

@@ -125,8 +125,8 @@
 	<div class="section" data-anchor="page-4" id="page4" style="background-image: url(/uploads/blocks/<?=$contacts['img']?>); background-size:cover; ">
 	
 		<div class="cnt-txt">
-	        	    <?= // $contacts['body']?>
-	        	    <?= // $contacts['name']?>
+	        	    <!-- <?=  $contacts['body']?> -->
+	        	    <!-- <?=  $contacts['name']?> -->
 	           <h3>Ukraine Kiev</h3>
 	           <p>Mehanizatorov 2a</p>
 	           <br>

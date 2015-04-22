@@ -655,6 +655,7 @@ div.img, .slide-ow div.img{
   position: absolute;
   bottom: 20px;
   left: 50%;
+  margin-left: -27px;
   width: 54px;
   height: 33px;
   background: url(../img/down.png) no-repeat center center;
@@ -758,9 +759,9 @@ div.img, .slide-ow div.img{
   font-size: 40px;
   line-height: 56px;
 }
-.command + .text-ab.active.our{
+/*.command + .text-ab.active.our{
   left: 83.3% !important;
-}
+}*/
 .triger-info{
   position: fixed;
   left:0;
