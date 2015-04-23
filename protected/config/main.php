@@ -51,7 +51,11 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		
+
+        'ih'=>array(
+            'class'=>'CImageHandler',
+        ),
+
 		'db'=>array(
 			'connectionString' => 'mysql:host=mshost.mysql.ukraine.com.ua;dbname=mshost_yodezeen',
 			'emulatePrepare' => true,

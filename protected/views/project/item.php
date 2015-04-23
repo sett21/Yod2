@@ -20,10 +20,10 @@
     <meta property="og:title" content="<?=$item['name']?>" />
     <meta property="og:url" content="http://yodezeen.net/project/item/<?=$item['id']?>" />
     <meta property="og:description" content="<?=$item['body']?>" />
-    <meta property="og:image" content="http://yodezeen.net/uploads/kiev1.jpg" />
+    <meta property="og:image" content="http://yodezeen.net/uploads/facebook/<?=$item['img']?>" />
     <meta prefix="fb: http://ogp.me/ns/fb#" property="fb:app_id" content="100004466924154" />
     <meta property="fb:admins" content="alexandr.trubachov.3" />
-     <link rel="image_src" href="http://yodezeen.net/uploads/kiev1.jpg" />
+    <link rel="image_src" href="http://yodezeen.net/uploads/facebook/<?=$item['img']?>" />
 
     <link rel="stylesheet" href="/themes/front/css/fonts.css" type="text/css" />
 	<link rel="stylesheet" href="/themes/front/css/jquery.fullPage.css" type="text/css" />
@@ -40,11 +40,11 @@
       <symbol id="s--circle">
         <circle r="10" cx="20" cy="20"></circle>
       </symbol>
-      
+
       <g class="g-circles g-circles--v1">
         <g class="g--circle">
           <use xlink:href="#s--circle" class="u--circle"/>
-        </g>  
+        </g>
         <g class="g--circle">
           <use xlink:href="#s--circle" class="u--circle"/>
         </g>
@@ -79,7 +79,7 @@
           <use xlink:href="#s--circle" class="u--circle"/>
         </g>
       </g>
-  </svg>	
+  </svg>
 </div>
 <!-- Элементы общие для всех страниц -->
 <button id="menu-trigger"></button>

@@ -84,7 +84,7 @@
             <ul class="cbp-rfgrid">
                 <?php if(is_array($architecture))
                     foreach($architecture as $item){
-                        ?>                      
+                        ?>
                         <li class="grid portfol" style="position:relative;">
                             <a href="/project/item/<?=$item['id']?>" class="publication-item">
                                 <figure class="effect-honey">
@@ -97,7 +97,7 @@
                             </a>
                             <ul class="socials">
                                 <li class="fb">
-                                    <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/kiev1.jpg','<?=$item['location']?>')">FB</a>
+                                    <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/facebook/<?=$item['img']?>','<?=$item['location']?>')">FB</a>
                                     <!-- <a class="share" href="http://www.facebook.com/sharer.php?u=http://yodezeen.net/project/item/<?=$item['id']?>">
                                        FB
                                     </a> -->
