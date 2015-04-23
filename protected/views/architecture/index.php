@@ -97,7 +97,10 @@
                             </a>
                             <ul class="socials">
                                 <li class="fb">
-                                    <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/projects/<?=$item['img']?>','<?=$item['location']?>')">FB</a>
+                                    <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/kiev1.jpg','<?=$item['location']?>')">FB</a>
+                                    <!-- <a class="share" href="http://www.facebook.com/sharer.php?u=http://yodezeen.net/project/item/<?=$item['id']?>">
+                                       FB
+                                    </a> -->
                                 </li>
                                 <li class="tw">
                                     <a href="#" onClick="Share.twitter('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>')">Твитнуть</a>

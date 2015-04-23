@@ -5,13 +5,25 @@
 
 
 
-    <meta property="og:title" content="<?=$item['name']?>"/>
+   <!--  <meta property="og:title" content="<?=$item['name']?>"/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="http://yodezeen.net/project/item/<?=$item['id']?>"/>
     <meta property="og:image" content="http://yodezeen.net/project/item/<?=$item['img']?>"/>
     <meta property="og:site_name" content="yodezeen.com"/>
-    <meta property="og:description" content="<?=$item['body']?>"/>
+    <meta property="og:description" content="<?=$item['body']?>"/> -->
 
+
+
+    <meta property="og:site_name" content="Yodezeen" />
+    <meta property="og:locale" content="ru_ru" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="<?=$item['name']?>" />
+    <meta property="og:url" content="http://yodezeen.net/project/item/<?=$item['id']?>" />
+    <meta property="og:description" content="<?=$item['body']?>" />
+    <meta property="og:image" content="http://yodezeen.net/uploads/kiev1.jpg" />
+    <meta prefix="fb: http://ogp.me/ns/fb#" property="fb:app_id" content="100004466924154" />
+    <meta property="fb:admins" content="alexandr.trubachov.3" />
+     <link rel="image_src" href="http://yodezeen.net/uploads/kiev1.jpg" />
 
     <link rel="stylesheet" href="/themes/front/css/fonts.css" type="text/css" />
 	<link rel="stylesheet" href="/themes/front/css/jquery.fullPage.css" type="text/css" />
@@ -103,7 +115,10 @@ else {
 <div class="soc-but">
     <ul class="socials">
         <li class="fb">
-            <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/projects/<?=$item['img']?>','<?=$item['location']?>')">FB</a>
+            <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/kiev1.jpg','<?=$item['location']?>')">FB</a>
+        <!--     <a class="share" href="http://www.facebook.com/sharer.php?u=http://yodezeen.net/project/item/<?=$item['id']?>">
+               FB
+            </a> -->
         </li>
         <li class="tw">
             <a href="#" onClick="Share.twitter('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>')">Твитнуть</a>
@@ -114,7 +129,7 @@ else {
         <!--<li class="inst"><a href="#">TW</a></li>-->
     </ul>
 </div>
-
+<img src="http://yodezeen.net/uploads/kiev1.jpg" style="display:none;">
 <!-- Слайды -->
 <p class="capt active"><?=$item['name']?></p>
 <div id="fullpage" class="folio-it">

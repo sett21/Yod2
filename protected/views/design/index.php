@@ -97,7 +97,10 @@
                             </a>
                             <ul class="socials">
                                 <li class="fb">
-                                    <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/projects/<?=$item['img']?>','<?=$item['location']?>')">FB</a>
+                                    <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/kiev1.jpg','<?=$item['location']?>')">FB</a>
+                                    <!-- <a class="share" href="http://www.facebook.com/sharer.php?u=http://yodezeen.net/project/item/<?=$item['id']?>">
+                                       FB
+                                    </a> -->
                                 </li>
                                 <li class="tw">
                                     <a href="#" onClick="Share.twitter('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>')">Твитнуть</a>
@@ -131,7 +134,13 @@
 <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
 <script src="/themes/front/js/modernizr.custom.menu.js"></script>
 <!--<script src="https://www.facebook.com/connect.php/js/FB.Share" type="text/javascript"></script>-->
+<script src=″http://swip.codylindley.com/jquery.popupWindow.js″></script>
 <script>
+    // $('.share').popupWindow({ 
+    //     width:550, 
+    //     height:400,
+    //     centerBrowser:1
+    // });
     Share = {
         vkontakte: function(purl, ptitle, pimg, text) {
             url  = 'http://vkontakte.ru/share.php?';
