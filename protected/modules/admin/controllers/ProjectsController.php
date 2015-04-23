@@ -82,6 +82,15 @@ class ProjectsController extends AdminController
 
 						$path = Yii::getPathOfAlias('webroot').'/uploads/'.strtolower($this->modelName).'/'.$rnd.'_'.$image->getName();
 	                	$image->saveAs($path);
+
+                        $ih = new CImageHandler();
+                        Yii::app()->ih
+                            ->load($path)
+                            ->save(Yii::getPathOfAlias('webroot') . '/uploads/' . strtolower($this->modelName) . '/' . $rnd . '_' . $image->getName())
+                            ->reload()
+                            ->thumb('300', '300')
+                            ->save(Yii::getPathOfAlias('webroot') . '/uploads/' . strtolower($this->modelName) . '/facebook/' . $rnd . '_' . $image->getName())
+                        ;
 	                }
 
 				}
