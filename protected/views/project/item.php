@@ -3,35 +3,23 @@
 <head>
 	<title>Yodezeen - Portfolio | <?=$item['name']?></title>
 
-
-
-   <!--  <meta property="og:title" content="<?=$item['name']?>"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:url" content="http://yodezeen.net/project/item/<?=$item['id']?>"/>
-    <meta property="og:image" content="http://yodezeen.net/project/item/<?=$item['img']?>"/>
-    <meta property="og:site_name" content="yodezeen.com"/>
-    <meta property="og:description" content="<?=$item['body']?>"/> -->
-
-
-
     <meta property="og:site_name" content="Yodezeen" />
     <meta property="og:locale" content="ru_ru" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="<?=$item['name']?>" />
     <meta property="og:url" content="http://yodezeen.net/project/item/<?=$item['id']?>" />
     <meta property="og:description" content="<?=$item['body']?>" />
-    <meta property="og:image" content="http://yodezeen.net/uploads/facebook/<?=$item['img']?>" />
-    <meta prefix="fb: http://ogp.me/ns/fb#" property="fb:app_id" content="100004466924154" />
-    <meta property="fb:admins" content="alexandr.trubachov.3" />
-    <link rel="image_src" href="http://yodezeen.net/uploads/facebook/<?=$item['img']?>" />
+    <meta property="og:image" content="http://yodezeen.net/uploads/projects/facebook/<?=$item['img']?>" />
+    <meta property="fb:app_id" content="997514503601397" />
+
+    <link rel="image_src" href="http://yodezeen.net/uploads/projects/facebook/<?=$item['img']?>" />
 
     <link rel="stylesheet" href="/themes/front/css/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="/themes/front/css/jquery.fullPage.css" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="/themes/front/css/component.css" />
-	<link rel="stylesheet" type="text/css" href="/themes/front/css/style.css" />
-	<script src="/themes/front/js/jq.js"></script>
-
-
+    <link rel="stylesheet" href="/themes/front/css/jquery.fullPage.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/themes/front/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="/themes/front/css/style.css" />
+    
+    <script src="/themes/front/js/jq.js"></script>
 
 </head>
 <body>
@@ -92,10 +80,12 @@
 else {
     echo '/design/';
 }?>">Back</a>
+
 <div class="information">
 	<h2><?=$item['name']?></h2>
 	<p><?=$item['body']?></p>
 </div>
+
 <!-- Меню -->
 <div class="nav">
 	<div id="main-menu">
@@ -109,16 +99,12 @@ else {
 			<span data-menuanchor="firstPage"><a id="m7" href="/publications/"><span data-hover="PUBLICATION">PUBLICATION</span></a></span>
 		</nav>
 	</div>
-
 </div>
 
 <div class="soc-but">
     <ul class="socials">
         <li class="fb">
-            <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/kiev1.jpg','<?=$item['location']?>')">FB</a>
-        <!--     <a class="share" href="http://www.facebook.com/sharer.php?u=http://yodezeen.net/project/item/<?=$item['id']?>">
-               FB
-            </a> -->
+            <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/projects/facebook/<?=$item['img']?>','<?=$item['location']?>')">FB</a>
         </li>
         <li class="tw">
             <a href="#" onClick="Share.twitter('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>')">Твитнуть</a>
@@ -126,10 +112,11 @@ else {
         <li class="pin">
             <a href="https://www.pinterest.com/pin/create/button/?url=http://yodezeen.net/project/item/<?=$item['id']?>&media=http://yodezeen.net/uploads/projects/<?=$item['img']?>&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" >PIN</a>
         </li>
-        <!--<li class="inst"><a href="#">TW</a></li>-->
     </ul>
 </div>
-<img src="http://yodezeen.net/uploads/kiev1.jpg" style="display:none;">
+
+<img src="http://yodezeen.net/uploads/projects/facebook/<?=$item['img']?>" style="display:none;">
+
 <!-- Слайды -->
 <p class="capt active"><?=$item['name']?></p>
 <div id="fullpage" class="folio-it">
@@ -140,10 +127,8 @@ else {
 	</div>
 	<?php } ?>
 </div>
+
 <!--Include scripts -->
-
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-
 <script src="/themes/front/js/jquery.easings.min.js"></script>
 <script src="/themes/front/js/jquery.svg.js"></script>
 <script src="/themes/front/js/jquery.lettering.js"></script>
@@ -151,7 +136,7 @@ else {
 <script type="text/javascript" src="/themes/front/js/jquery.fullPage.min.js"></script>
 <script src="/themes/front/js/modernizr.custom.js"></script>
 <script src="/themes/front/js/modernizr.custom.menu.js"></script>
-<!-- <script type="text/javascript" src="/themes/front/js/arch.js"></script> -->
+
 <script>
     Share = {
         vkontakte: function(purl, ptitle, pimg, text) {
@@ -198,6 +183,7 @@ else {
         }
     };
 </script>
+
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#fullpage').fullpage({

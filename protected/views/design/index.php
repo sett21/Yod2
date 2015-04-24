@@ -97,10 +97,7 @@
                             </a>
                             <ul class="socials">
                                 <li class="fb">
-                                    <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/facebook/<?=$item['img']?>','<?=$item['location']?>')">FB</a>
-                                    <!-- <a class="share" href="http://www.facebook.com/sharer.php?u=http://yodezeen.net/project/item/<?=$item['id']?>">
-                                       FB
-                                    </a> -->
+                                    <a href="#" onClick="Share.facebook('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>','http://yodezeen.net/uploads/projects/facebook/<?=$item['img']?>','<?=$item['location']?>')">FB</a>
                                 </li>
                                 <li class="tw">
                                     <a href="#" onClick="Share.twitter('http://yodezeen.net/project/item/<?=$item['id']?>','<?=$item['name']?>')">Твитнуть</a>
@@ -243,6 +240,23 @@
             $('.capt').removeClass('active');
         }, 4000);
     });
+</script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '997514503601397',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
 </script>
 </body>
         </html>
