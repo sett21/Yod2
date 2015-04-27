@@ -1,5 +1,20 @@
 var loadArch = false, loadDesign = false, loadAll = false;
 var relativeX, relativeY;
+
+
+function fullScreen(element) {
+  if(element.requestFullscreen) {
+    element.requestFullscreen();
+  } else if(element.webkitrequestFullscreen) {
+    element.webkitRequestFullscreen();
+  } else if(element.mozRequestFullscreen) {
+    element.mozRequestFullScreen();
+  }
+}
+
+var html = document.documentElement;
+fullScreen(html);
+
 /*
 	Document Ready function
 */
@@ -42,7 +57,7 @@ $(function (){
 		anchors: ['page-1','page-2','page-3','page-4'],
 		menu: '#mainMenu',
 		afterRender: function(){
-			//mainVideo.play();
+			mainVideo.play();
 		},
 		onLeave: function(index, nextIndex, direction){
 			if(index === 1 || index === 3){
@@ -59,12 +74,12 @@ $(function (){
 		},
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
 			if(index == 2 && slideIndex == 2){
-				$.fn.fullpage.setAllowScrolling(false);
+				//$.fn.fullpage.setAllowScrolling(false);
 			}
 			if(index == 2 && slideIndex == 1){
 				setTimeout(function(){
 					$('.ourp').addClass('slowhide');				
-				}, 4000);
+				}, 2000);
 				setTimeout(function(){
 					$('.ourp').css('display', 'none');				
 				}, 5000);
@@ -72,7 +87,7 @@ $(function (){
 		},
         onSlideLeave: function(anchorLink, index, slideIndex, direction){
         	if(index == 2 && slideIndex == 2){
-				$.fn.fullpage.setAllowScrolling(true);
+				//$.fn.fullpage.setAllowScrolling(true);
 			}
 			if(index == 2 && slideIndex == 1){
 				$('.ourp').css('display','block').removeClass('slowhide');		
@@ -135,25 +150,9 @@ $(function (){
 	 
 });
 
-// $('.all-works').on('click', function(event){
-// 	event.preventDefault();
-// 	getFolioAll();
-// });	
-
-/*++++++++++++++++++++++++++++++++++++++++
-	On load function
-++++++++++++++++++++++++++++++++++++++++*/
-
-
-
-
 $(window).load(function () {
-
 	var svgobject = document.getElementById('svgmap'),
 		splashText = $("#os-phrases > h2");
-
-
-
 	if ('contentDocument' in svgobject) {
 		var svgdom = $(svgobject.contentDocument);
 		var mapTxt = $('#map-txt');
@@ -166,7 +165,6 @@ $(window).load(function () {
 			left: (relativeX + 20)
 		});
 	});
-
 	$(".st0.active", svgdom).hover(function(){
 		var _this = $(this);
 
@@ -220,14 +218,11 @@ $(window).load(function () {
 				left: (relativeX + 10)
 			});
 		}
-
 	}, function(){
 		var _this = $(this);
 		_this.attr('r', 3);
 		mapTxt.text('').removeClass('show');
 	});
-
-
 	$('.loading').slideUp(300);
 	splashText.lettering('words').children("span").lettering().children("span").lettering(); 
 	$('.logo').addClass('active');

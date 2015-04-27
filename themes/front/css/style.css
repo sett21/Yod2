@@ -323,6 +323,11 @@ a.text-ab:hover{
 }
 .slowhide{
   opacity: 0 !important;
+  -moz-transform: scale(1.1,1.1); /* Для Firefox */
+    -ms-transform: scale(1.1,1.1); /* Для IE */
+    -webkit-transform: scale(1.1,1.1); /* Для Safari, Chrome, iOS */
+    -o-transform: scale(1.1,1.1); /* Для Opera */
+    transform: scale(1.1,1.1);
 }
 .capt.active{
   opacity: 1;
