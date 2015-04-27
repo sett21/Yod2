@@ -16,7 +16,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'themes/front/css/dist/style.all.css': ['themes/front/css/dist/style.min.css']
+          'themes/front/css/dist/style.min.css' : ['themes/front/css/dist/style.all.css']
         }
       }
     },

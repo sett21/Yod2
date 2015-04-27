@@ -3,10 +3,8 @@
 <head>
 	<title>YoDezeen - Publications | <?=$item['name']?></title>
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<link rel="stylesheet" href="/themes/front/css/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="/themes/front/css/jquery.fullPage.css" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="/themes/front/css/component.css" />
-	<link rel="stylesheet" type="text/css" href="/themes/front/css/style.css" />
+
+	<link rel="stylesheet" type="text/css" href="/themes/front/css/dist/style.min.css" />
 	<script src="/themes/front/js/jq.js"></script>
 </head>
 <body>

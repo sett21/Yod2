@@ -3,6 +3,7 @@
 <head>
 	<title>Yodezeen - Portfolio | <?=$item['name']?></title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
+
     <meta property="og:site_name" content="Yodezeen" />
     <meta property="og:locale" content="ru_ru" />
     <meta property="og:type" content="article" />
@@ -14,10 +15,7 @@
 
     <link rel="image_src" href="http://yodezeen.net/uploads/projects/facebook/<?=$item['img']?>" />
 
-    <link rel="stylesheet" href="/themes/front/css/fonts.css" type="text/css" />
-    <link rel="stylesheet" href="/themes/front/css/jquery.fullPage.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="/themes/front/css/component.css" />
-    <link rel="stylesheet" type="text/css" href="/themes/front/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/themes/front/css/dist/style.min.css" />
 
     <script src="/themes/front/js/jq.js"></script>
 

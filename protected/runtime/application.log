@@ -11941,3 +11941,480 @@ Stack trace:
 REQUEST_URI=/themes/front/js/modernizr.custom.js
 HTTP_REFERER=http://yod.local:8888/
 ---
+2015/04/27 16:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 16:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 16:31:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 16:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:06:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:07:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:09:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:10:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_ultra_light-webfont.woff2".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_ultra_light-webfont.woff2
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/img/menu.png".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/img/menu.png
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_semi_bold-webfont.woff2".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_semi_bold-webfont.woff2
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_light-webfont.woff2".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_light-webfont.woff2
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_extra_bold-webfont.woff2".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_extra_bold-webfont.woff2
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/img/down.png".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/img/down.png
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/img/aboutus-bg.jpg".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/img/aboutus-bg.jpg
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/img/arrows.png".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/img/arrows.png
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_ultra_light-webfont.woff".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_ultra_light-webfont.woff
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_semi_bold-webfont.woff".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_semi_bold-webfont.woff
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_light-webfont.woff".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_light-webfont.woff
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_extra_bold-webfont.woff".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_extra_bold-webfont.woff
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_ultra_light-webfont.ttf".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_ultra_light-webfont.ttf
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_extra_bold-webfont.ttf".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_extra_bold-webfont.ttf
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_semi_bold-webfont.ttf".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_semi_bold-webfont.ttf
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_light-webfont.ttf".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_light-webfont.ttf
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_ultra_light-webfont.woff2".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_ultra_light-webfont.woff2
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/img/menu.png".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/img/menu.png
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_semi_bold-webfont.woff2".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_semi_bold-webfont.woff2
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_light-webfont.woff2".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_light-webfont.woff2
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/img/down.png".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/img/down.png
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_extra_bold-webfont.woff2".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_extra_bold-webfont.woff2
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/img/aboutus-bg.jpg".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/img/aboutus-bg.jpg
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/img/arrows.png".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/img/arrows.png
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_ultra_light-webfont.woff".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_ultra_light-webfont.woff
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_semi_bold-webfont.woff".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_semi_bold-webfont.woff
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_light-webfont.woff".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_light-webfont.woff
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_extra_bold-webfont.woff".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_extra_bold-webfont.woff
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_semi_bold-webfont.ttf".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_semi_bold-webfont.ttf
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_light-webfont.ttf".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_light-webfont.ttf
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_extra_bold-webfont.ttf".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_extra_bold-webfont.ttf
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/fonts/typograph_pro_ultra_light-webfont.ttf".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/fonts/typograph_pro_ultra_light-webfont.ttf
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:31:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/img/arrows.png".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/img/arrows.png
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---
+2015/04/27 17:34:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/architecture/
+---
+2015/04/27 17:34:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/project/item/22
+---
+2015/04/27 17:34:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/architecture/
+---
+2015/04/27 17:34:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/27 17:34:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/img/arrows.png".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/img/arrows.png
+HTTP_REFERER=http://yod.local:8888/themes/front/css/dist/style.min.css
+---

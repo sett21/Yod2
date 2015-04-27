@@ -3,13 +3,8 @@
 <head>
     <title>YoDezeen - Portfolio | Design</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link rel="stylesheet" href="/themes/front/css/fonts.css" type="text/css" />
-    <link rel="stylesheet" href="/themes/front/css/jquery.fullPage.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="/themes/front/css/component.css" />
-    <link rel="stylesheet" type="text/css" href="/themes/front/css/owl.carousel.css" />
-    <link rel="stylesheet" type="text/css" href="/themes/front/css/owl.theme.css" />
-    <link rel="stylesheet" type="text/css" href="/themes/front/css/owl.transitions.css" />
-    <link rel="stylesheet" type="text/css" href="/themes/front/css/style.css" />
+
+   <link rel="stylesheet" type="text/css" href="/themes/front/css/dist/style.min.css" />
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
     <script src="/themes/front/js/jq.js"></script>

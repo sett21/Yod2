@@ -1,16 +1,6 @@
-var loadArch = false, loadDesign = false, loadAll = false;
+var loadArch = false, mainVideo = $('#video')[0], loadDesign = false, loadAll = false;
 var relativeX, relativeY;
 
-
-function fullScreen(element) {
-  if(element.requestFullscreen) {
-    element.requestFullscreen();
-  } else if(element.webkitrequestFullscreen) {
-    element.webkitRequestFullscreen();
-  } else if(element.mozRequestFullscreen) {
-    element.mozRequestFullScreen();
-  }
-}
 function changeHeightFolio(){
 	var totalHeight = $(window).height();
 	var thisHeight =  totalHeight / 3; 
@@ -29,12 +19,9 @@ function changeHeightCommand(){
 
 $(function (){
 
-	var html = document.documentElement;
-	fullScreen(html);
-
 	var indexPage = "", 
 		textAbout = $('#page2 .text-ab'),
-		mainVideo = $('#video')[0],
+		
 		menuTrigger = $('#menu-trigger'),
 		mainMenuContainer = $('.nav.main'),
 		additionalMenu = $('.nav.additional'),
@@ -57,14 +44,19 @@ $(function (){
 		easing: 'easeInOutCubic',
 		anchors: ['page-1','page-2','page-3','page-4'],
 		menu: '#mainMenu',
+		touchSensitivity: 15,
+        normalScrollElementTouchThreshold: 5,
+
 		afterRender: function(){
-			mainVideo.play();
+			
 		},
+
 		onLeave: function(index, nextIndex, direction){
 			if(index === 1 || index === 3){
 			 //	mainVideo.pause();
 			}
 		},
+
 		afterLoad: function(anchorLink, index){
 			if(index == 2){
 				textAbout.addClass('active');
@@ -73,6 +65,7 @@ $(function (){
 				//mainVideo.play();
 			}
 		},
+
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
 			if(index == 2 && slideIndex == 2){
 				//$.fn.fullpage.setAllowScrolling(false);
@@ -86,6 +79,7 @@ $(function (){
 				}, 5000);
 			}
 		},
+		
         onSlideLeave: function(anchorLink, index, slideIndex, direction){
         	if(index == 2 && slideIndex == 2){
 				//$.fn.fullpage.setAllowScrolling(true);
@@ -224,9 +218,10 @@ $(window).load(function () {
 		_this.attr('r', 3);
 		mapTxt.text('').removeClass('show');
 	});
-	$('.loading').slideUp(300);
+	//$('.loading').slideUp(300);
 	splashText.lettering('words').children("span").lettering().children("span").lettering(); 
 	$('.logo').addClass('active');
+	mainVideo.play();
 });
 
 

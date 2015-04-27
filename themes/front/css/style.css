@@ -104,7 +104,7 @@ body {
   display: block;
   width: 21px;
   height: 23px;
-  background: url('../img/menu.png') center center;
+  background: url('../../img/menu.png') center center;
   /**/
   border: none;
   position: fixed;
@@ -121,9 +121,9 @@ body {
 }
 .triger-down:hover, #menu-trigger:hover, .slide-down:hover, .fp-prev:hover, .fp-next:hover, .fotorama__arr--prev:hover, .fotorama__arr--next:hover{
     opacity: 0.6;
-}
+} 
 #menu-trigger.active {
-  background: url('../img/close.png') center center;
+  background: url('../../img/close.png') center center;
   /**/
   opacity: 1;
 }
@@ -145,8 +145,9 @@ body {
 .loading{
   width: 100%;
   height: 100%;
+  display: none;
   background-color: rgba(0, 0, 0, 1);
-  /*background-image: url(../img/load-3.GIF);*/
+  /*background-image: url(../../img/load-3.GIF);*/
   background-position: center center;
   background-repeat: no-repeat;
   position: fixed;
@@ -266,11 +267,11 @@ nav.cl-effect-2 {
   right: 0;
   bottom: 0;
   position: absolute;
-  background: url(../img/pat.png);
+  background: url(../../img/pat.png);
 }
 /*About us*/
 #page2{
-  background: url('../img/aboutus-bg.jpg') no-repeat center center;
+  background: url('../../img/aboutus-bg.jpg') no-repeat center center;
   -moz-background-size: cover;
   /* Firefox 3.6+ */
   -webkit-background-size: cover;
@@ -354,7 +355,7 @@ p.text-ab.active, a.text-ab.active{
   position: absolute;
   top: 0;
   left: 0;
-  background: url("../img/map.png") center center no-repeat;
+  background: url("../../img/map.png") center center no-repeat;
   background-size: cover;
 }
 .dot {
@@ -392,7 +393,7 @@ p.text-ab.active, a.text-ab.active{
 .fp-controlArrow .fp-prev {
   width: 33px;
   height: 54px;
-  background: url("../img/arrows.png") no-repeat left center;
+  background: url("../../img/arrows.png") no-repeat left center;
 }
 #page1 .fp-controlArrow{
   display: none;
@@ -466,7 +467,7 @@ p.text-ab.active, a.text-ab.active{
   display: block !important;
   width: 30px !important;
   height: 30px !important;
-  background: rgba(0,0,0,0.5) url(../img/socials.png);
+  background: rgba(0,0,0,0.5) url(../../img/socials.png);
   /*background-size: cover;*/
   background-repeat: no-repeat !important;
   text-indent: -9999px !important;
@@ -487,7 +488,7 @@ p.text-ab.active, a.text-ab.active{
   background-position: 0 0;
 }
 .socials li.pin a{
-    background: rgba(0,0,0,0.5) url(../img/socials.png) !important;
+    background: rgba(0,0,0,0.5) url(../../img/socials.png) !important;
   background-position: -60px 0 !important;
 }
 .socials li.inst a{
@@ -662,7 +663,7 @@ div.img, .slide-ow div.img{
   margin-left: -27px;
   width: 54px;
   height: 33px;
-  background: url(../img/down.png) no-repeat center center;
+  background: url(../../img/down.png) no-repeat center center;
   transition: all 0.3s 0s ease-in-out;
   -moz-transition: all 0.3s 0s ease-in-out;
   -webkit-transition: all 0.3s 0s ease-in-out;
@@ -679,7 +680,7 @@ div.img, .slide-ow div.img{
   left: 12%;
   width: 54px;
   height: 33px;
-  background: url(../img/down.png) no-repeat center center;
+  background: url(../../img/down.png) no-repeat center center;
   transition: all 0.3s 0s ease-in-out;
   -moz-transition: all 0.3s 0s ease-in-out;
   -webkit-transition: all 0.3s 0s ease-in-out;
@@ -711,7 +712,7 @@ div.img, .slide-ow div.img{
   left:20px;
   width: 33px;
   height: 54px;
-  background: url(../img/arrows.png) no-repeat left center;
+  background: url(../../img/arrows.png) no-repeat left center;
   transition: all 0.3s 0s ease-in-out;
   -moz-transition: all 0.3s 0s ease-in-out;
   -webkit-transition: all 0.3s 0s ease-in-out;
@@ -789,11 +790,11 @@ div.img, .slide-ow div.img{
 }
 .cs-owl-prev,.fotorama__arr.fotorama__arr--prev{
   left: 15px !important;
-    background: url(../img/arrows.png) no-repeat left center !important;
+    background: url(../../img/arrows.png) no-repeat left center !important;
 }
 .cs-owl-next, .fotorama__arr.fotorama__arr--next{
    right: 15px !important;
-    background: url(../img/arrows.png) no-repeat right center !important;
+    background: url(../../img/arrows.png) no-repeat right center !important;
 }
 .fotorama{
   width: 100%;

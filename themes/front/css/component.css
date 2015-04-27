@@ -105,35 +105,6 @@ svg { -webkit-background-clip: text; }
 	-moz-transition:all .3s 0 ease-in;
 	-webkit-transition:all .3s 0 ease-in;
 }
-/*
-.os-phrases h2:nth-child(4) > span > span > span {
-	-webkit-animation-delay: 15s;
-	-moz-animation-delay: 15s;
-	animation-delay: 15s;
-}
-
-.os-phrases h2:nth-child(5) > span > span > span {
-	font-size: 150px;
-	-webkit-animation-delay: 21s;
-	-moz-animation-delay: 21s;
-	animation-delay: 21s;
-	-webkit-animation-duration: 8s;
-	-moz-animation-duration: 8s;
-	animation-duration: 8s;
-}
-
-.os-phrases h2:nth-child(6) > span > span > span {
-	-webkit-animation-delay: 30s;
-	-moz-animation-delay: 30s;
-	animation-delay: 30s;
-}
-
-.os-phrases h2:nth-child(7) > span > span > span {
-	-webkit-animation-delay: 34s;
-	-moz-animation-delay: 34s;
-	animation-delay: 34s;
-}
-*/
 @-webkit-keyframes OpeningSequence {
 	0% {
 		text-shadow: 0 0 50px #fff;
@@ -211,13 +182,6 @@ svg { -webkit-background-clip: text; }
 		pointer-events: none;
 	}
 }
-
-/*.os-phrases h2:nth-child(8) > span > span > span {
-	font-size: 30px;
-	-webkit-animation: FadeIn 4s infinite  40s forwards;
-	-moz-animation: FadeIn 4s infinite  40s forwards;
-	animation: FadeIn 4s infinite  40s forwards;
-}*/
 
 @-webkit-keyframes FadeIn { 
 	0% {
@@ -445,44 +409,3 @@ nav a:focus {
 	width: calc(100% / 2);
 }
 }
-/* Example for media query: change number of items per row */
-/* screen and
-
-
-@media screen and (max-width: 945px) {
-	.cbp-rfgrid>li {
-		width: 25%; Fallback
-		width: -webkit-calc(100% / 4);
-		width: calc(100% / 4);
-	}
-}
-
-@media screen and (max-width: 660px) {
-	.cbp-rfgrid>li {
-		width: 33.3333333%; Fallback
-		width: -webkit-calc(100% / 3);
-		width: calc(100% / 3);
-	}
-}
-
-@media screen and (max-width: 660px) {
-	.cbp-rfgrid>li {
-		width: 33.3333333%; Fallback
-		width: -webkit-calc(100% / 3);
-		width: calc(100% / 3);
-	}
-}
-
-@media screen and (max-width: 400px) {
-	.cbp-rfgrid>li {
-		width: 50%; Fallback
-		width: -webkit-calc(100% / 2);
-		width: calc(100% / 2);
-	}
-}
-
-@media screen and (max-width: 300px) {
-	.cbp-rfgrid>li {
-		width: 100%;
-	}
-} */

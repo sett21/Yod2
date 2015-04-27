@@ -4,13 +4,10 @@
 	<title>Архитектура</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
   <meta name="apple-mobile-web-app-capable" content="yes" />
-	<link rel="stylesheet" href="/themes/front/css/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="/themes/front/css/jquery.fullPage.css" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="/themes/front/css/component.css" />
-	<link rel="stylesheet" type="text/css" href="/themes/front/css/owl.carousel.css" />
-	<link rel="stylesheet" type="text/css" href="/themes/front/css/owl.theme.css" />
-	<link rel="stylesheet" type="text/css" href="/themes/front/css/owl.transitions.css" />
-	<link rel="stylesheet" type="text/css" href="/themes/front/css/style.css" />
+
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<link rel="stylesheet" type="text/css" href="/themes/front/css/dist/style.min.css" />
 	<!--[if IE]>
 	 		<link rel="stylesheet" type="text/css" href="/themes/front/css/style-ie.css" />
 	<![endif]-->
