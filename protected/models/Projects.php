@@ -154,9 +154,14 @@ class Projects extends CActiveRecord
             if (in_array($file, array('.', '..'))) {
                 unset($files[$key]);
             }
+            else {
+                $fileInfo = getimagesize($dir . '/' . $file);
+                $result[$key]['source'] = $file;
+                $result[$key]['portrait_oriented'] = $fileInfo[0] < $fileInfo[1] ? 1 : 0;
+            }
         }
 
-        return $files;
+        return $result;
     }
 
 
