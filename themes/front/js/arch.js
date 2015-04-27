@@ -11,13 +11,6 @@ function fullScreen(element) {
     element.mozRequestFullScreen();
   }
 }
-
-var html = document.documentElement;
-fullScreen(html);
-
-/*
-	Document Ready function
-*/
 function changeHeightFolio(){
 	var totalHeight = $(window).height();
 	var thisHeight =  totalHeight / 3; 
@@ -30,7 +23,15 @@ function changeHeightCommand(){
 	var liEl = $('.cbp-rfgrid.command > li');
 	liEl.css('height', thisHeight);
 }
+/*
+	Document Ready function
+*/
+
 $(function (){
+
+	var html = document.documentElement;
+	fullScreen(html);
+
 	var indexPage = "", 
 		textAbout = $('#page2 .text-ab'),
 		mainVideo = $('#video')[0],
