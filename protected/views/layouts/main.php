@@ -3,6 +3,7 @@
 <head>
 	<title>Архитектура</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
 	<link rel="stylesheet" href="/themes/front/css/fonts.css" type="text/css" />
 	<link rel="stylesheet" href="/themes/front/css/jquery.fullPage.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="/themes/front/css/component.css" />
