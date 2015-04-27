@@ -18,12 +18,12 @@
     <link rel="stylesheet" href="/themes/front/css/jquery.fullPage.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="/themes/front/css/component.css" />
     <link rel="stylesheet" type="text/css" href="/themes/front/css/style.css" />
-    
+
     <script src="/themes/front/js/jq.js"></script>
 
-</head>
-<body>
-<div class="loading">
+            </head>
+            <body>
+            <div class="loading">
 	<svg viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <symbol id="s--circle">
         <circle r="10" cx="20" cy="20"></circle>
@@ -122,8 +122,8 @@ else {
 <div id="fullpage" class="folio-it">
 	<?php foreach($photos as $photo) { ?>
 	<!-- Страница 1 -->
-	<div class="section">
-		<div class="img" style="background-image:url(/uploads/projects/list/<?=$item['id']?>/<?=$photo?>)"></div>
+	<div class="section <?php if(isset($photo['portrait_oriented']) && $photo['portrait_oriented']) { ?>half-width<?php } ?>">
+		<div class="img" style="background-image:url(/uploads/projects/list/<?=$item['id']?>/<?=$photo['source']?>)"></div>
 	</div>
 	<?php } ?>
 </div>

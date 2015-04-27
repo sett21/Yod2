@@ -1444,6 +1444,7 @@ figcaption:hover{
     stroke-width: 20;
   }
 }
-
-
-
+.section.half-width {
+    float: left;
+    width: 50%;
+}
