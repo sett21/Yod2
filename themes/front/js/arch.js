@@ -218,7 +218,7 @@ $(window).load(function () {
 		_this.attr('r', 3);
 		mapTxt.text('').removeClass('show');
 	});
-	//$('.loading').slideUp(300);
+	$('.loading').slideUp(300);
 	splashText.lettering('words').children("span").lettering().children("span").lettering(); 
 	$('.logo').addClass('active');
 	mainVideo.play();

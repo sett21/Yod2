@@ -69,11 +69,11 @@ html, body {
 }
 .fp-controlArrow.fp-prev {
     left: 15px;
-    background: url(../img/arrows.png) no-repeat left center;
+    background: url(../../img/arrows.png) no-repeat left center;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
-    background: url(../img/arrows.png) no-repeat right center;
+    background: url(../../img/arrows.png) no-repeat right center;
 }
 .fp-scrollable {
     overflow: scroll;
