@@ -1,5 +1,20 @@
 var loadArch = false, loadDesign = false, loadAll = false;
 var relativeX, relativeY;
+
+
+function fullScreen(element) {
+  if(element.requestFullscreen) {
+    element.requestFullscreen();
+  } else if(element.webkitrequestFullscreen) {
+    element.webkitRequestFullscreen();
+  } else if(element.mozRequestFullscreen) {
+    element.mozRequestFullScreen();
+  }
+}
+
+var html = document.documentElement;
+fullScreen(html);
+
 /*
 	Document Ready function
 */
