@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="/themes/front/css/dist/style.min.css" />
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+     <link rel="stylesheet" type="text/css" href="/themes/front/css/responsive/responsive.css" />
+  <link rel="stylesheet" type="text/css" href="/themes/front/css/responsive/responsive_tablet.css" />
 </head>
 <body>
 <div class="loading">

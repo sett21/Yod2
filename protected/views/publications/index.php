@@ -5,6 +5,8 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 
 	<link rel="stylesheet" type="text/css" href="/themes/front/css/dist/style.min.css" />
+	 <link rel="stylesheet" type="text/css" href="/themes/front/css/responsive/responsive.css" />
+  <link rel="stylesheet" type="text/css" href="/themes/front/css/responsive/responsive_tablet.css" />
 	<!-- fotorama.css & fotorama.js. -->
 	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
 	<script src="/themes/front/js/jq.js"></script>
