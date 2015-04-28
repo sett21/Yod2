@@ -12,14 +12,22 @@ and (-webkit-min-device-pixel-ratio: 1) {
         padding: 0;
     }
     .slide-down, .triger-down{
-        width: 34px;
-        height: 20px;
+        width: 30px;
+        height: 15px;
         background-size: cover;
     }
-    .fp-prev, .fp-next{
-        width: 25px;
-        height: 50px;
+    .fp-controlArrow, .icon-back{
+        width: 17px;
+        height: 34px;
         background-size: cover;
+    }
+    .fp-controlArrow.fp-prev {
+        left: 10px;
+        background: url(../../img/arrows-mob.png) no-repeat left center;
+    }
+    .fp-controlArrow.fp-next {
+        right: 10px;
+        background: url(../../img/arrows-mob.png) no-repeat right center;
     }
     .os-phrases h2{
         font-size: 34px;
@@ -31,11 +39,16 @@ and (-webkit-min-device-pixel-ratio: 1) {
         width: 400px;
         font-size: 24px !important;
     }
-    .fotorama__arr.fotorama__arr--prev,
-    .fotorama__arr.fotorama__arr--next, .icon-back{
-        width: 25px !important;
-        height: 50px !important;
+    .fotorama__arr.fotorama__arr--next, .fotorama__arr.fotorama__arr--prev {
+        width: 17px !important;
+        height: 34px !important;
         cursor: pointer !important;
+    }
+    .fotorama__arr.fotorama__arr--next{
+        background: url(../../img/arrows-mob.png) no-repeat right center !important;
+    }
+    .fotorama__arr.fotorama__arr--prev{
+        background: url(../../img/arrows-mob.png) no-repeat left center !important;
     }
     .cnt-txt{
         padding: 20px;
@@ -46,10 +59,15 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .cnt-txt p{
         font-size: 16px;
     }
+    nav.cl-effect-2{
+        width: 600px;
+        margin-left: -300px;
+    }
     .cl-effect-2 a{
         font-size: 40px !important;
         display: block;
         margin-bottom: 20px;
+        text-align: center;
     }
     .cbp-rfgrid > li {
         position: relative;
@@ -72,5 +90,14 @@ and (-webkit-min-device-pixel-ratio: 1) {
         opacity: 1;
         -webkit-transform: translate3d(0,0,0);
         transform: translate3d(0,0,0);
+    }
+    .capt{
+        font-size: 30px;
+    }
+    .information{
+        padding: 30px 20px;
+    }
+    .information h2, .information p{
+        font-size: 20px;
     }
 }
