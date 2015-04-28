@@ -11,7 +11,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         margin: 5px 0;
         padding: 0;
     }
-    .slide-down{
+    .slide-down, .triger-down{
         width: 34px;
         height: 20px;
         background-size: cover;
@@ -32,7 +32,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         font-size: 24px !important;
     }
     .fotorama__arr.fotorama__arr--prev,
-    .fotorama__arr.fotorama__arr--next{
+    .fotorama__arr.fotorama__arr--next, .icon-back{
         width: 25px !important;
         height: 50px !important;
         cursor: pointer !important;
@@ -45,5 +45,17 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
     .cnt-txt p{
         font-size: 16px;
+    }
+    .cl-effect-2 a{
+        font-size: 40px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .cbp-rfgrid > li {
+        position: relative;
+        float: left;
+        overflow: hidden;
+        width: 50%;
+        height: 200px  !important;
     }
 }
