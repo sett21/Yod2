@@ -10,7 +10,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
         float: none;
         margin: 5px 0;
         padding: 0;
-
     }
     .slide-down{
         width: 34px;
@@ -25,21 +24,21 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .os-phrases h2{
         font-size: 34px;
     }
-    .anim-logo, .logo.active.show{
+    img.logo{
         width: 330px;
     }
     p.text-ab, a.text-ab{
         width: 400px;
         font-size: 24px !important;
     }
-    .fotorama__arr.fotorama__arr--prev, .fotorama__arr.fotorama__arr--next{
+    .fotorama__arr.fotorama__arr--prev,
+    .fotorama__arr.fotorama__arr--next{
         width: 25px !important;
         height: 50px !important;
-        cursor: pointer!important;
-
+        cursor: pointer !important;
     }
     .cnt-txt{
-        padding: 20px 0 20px 25px;
+        padding: 20px;
     }
     .cnt-txt h3{
         font-size: 18px;
