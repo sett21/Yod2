@@ -6,6 +6,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
     #main-menu a{
         display: block;
         font-size: 34px !important;
+        font-family: 'semibold' !important;
+        float: none;
+        margin: 5px 0;
+        padding: 0;
 
     }
     .slide-down{
@@ -18,10 +22,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
         height: 50px;
         background-size: cover;
     }
-    .os-phrases h2 {
+    .os-phrases h2{
         font-size: 34px;
     }
-    .anim-logo{
+    .anim-logo, .logo.active.show{
         width: 330px;
     }
     p.text-ab, a.text-ab{
@@ -31,8 +35,16 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .fotorama__arr.fotorama__arr--prev, .fotorama__arr.fotorama__arr--next{
         width: 25px !important;
         height: 50px !important;
+        cursor: pointer!important;
+
     }
     .cnt-txt{
-        width: ;
+        padding: 20px 0 20px 25px;
+    }
+    .cnt-txt h3{
+        font-size: 18px;
+    }
+    .cnt-txt p{
+        font-size: 16px;
     }
 }

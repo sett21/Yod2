@@ -13652,3 +13652,185 @@ REQUEST_URI=/themes/front/js/modernizr.custom.js
 HTTP_REFERER=http://yod.local:8888/
 >>>>>>> a08465ddcae0f7517062a7a57bb0d29c9f138635
 ---
+2015/04/28 11:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 11:42:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 11:43:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 11:43:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 11:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 11:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 11:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 11:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 11:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "″http:".' in /Users/user/Documents/Yod2/framework/web/CController.php:483
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CController.php(270): CController->missingAction('\xE2\x80\xB3http:')
+#1 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(282): CController->run('\xE2\x80\xB3http:')
+#2 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('design/\xE2\x80\xB3http:...')
+#3 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/design/%E2%80%B3http://swip.codylindley.com/jquery.popupWindow.js%E2%80%B3
+HTTP_REFERER=http://localhost/design/
+---
+2015/04/28 11:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/design/
+---
+2015/04/28 12:04:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 12:05:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 12:07:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 12:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 12:11:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 12:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 12:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 12:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 12:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/28 12:15:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
