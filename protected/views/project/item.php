@@ -16,6 +16,8 @@
     <link rel="image_src" href="http://yodezeen.net/uploads/projects/facebook/<?=$item['img']?>" />
 
     <link rel="stylesheet" type="text/css" href="/themes/front/css/dist/style.min.css" />
+     <link rel="stylesheet" type="text/css" href="/themes/front/css/responsive/responsive.css" />
+  <link rel="stylesheet" type="text/css" href="/themes/front/css/responsive/responsive_tablet.css" />
 
     <script src="/themes/front/js/jq.js"></script>
 
