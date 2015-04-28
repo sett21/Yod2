@@ -1,0 +1,49 @@
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 601px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    #main-menu a{
+        display: block;
+        font-size: 34px !important;
+        font-family: 'semibold' !important;
+        float: none;
+        margin: 5px 0;
+        padding: 0;
+    }
+    .slide-down{
+        width: 34px;
+        height: 20px;
+        background-size: cover;
+    }
+    .fp-prev, .fp-next{
+        width: 25px;
+        height: 50px;
+        background-size: cover;
+    }
+    .os-phrases h2{
+        font-size: 34px;
+    }
+    img.logo{
+        width: 330px;
+    }
+    p.text-ab, a.text-ab{
+        width: 400px;
+        font-size: 24px !important;
+    }
+    .fotorama__arr.fotorama__arr--prev,
+    .fotorama__arr.fotorama__arr--next{
+        width: 25px !important;
+        height: 50px !important;
+        cursor: pointer !important;
+    }
+    .cnt-txt{
+        padding: 20px;
+    }
+    .cnt-txt h3{
+        font-size: 18px;
+    }
+    .cnt-txt p{
+        font-size: 16px;
+    }
+}
