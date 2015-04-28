@@ -1,11 +1,59 @@
-
-/* IPad mini*/
-
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
 	/* Styles*/
-	
+	#menu-trigger {
+  		display: block;
+  		width: 40px;
+  		height: 40px;
+  		top:10px;
+  		right: 10px;
+  		background-repeat: no-repeat;
+  		background-position: center center;
+	}
+	#menu-trigger.active{
+		background-repeat: no-repeat;
+  		background-position: center center;
+	}
+	nav.cl-effect-2 {
+	  width: 240px;
+	  margin-top: -125px;
+	  margin-left: -120px;
+	}
+	.os-phrases h2 {
+		font-size: 20px;
+		font-weight: 70;
+	}
+	img.logo{
+		width: 240px;
+	}
+	#main-menu a{
+		font-family: 'semibold' !important;
+		font-size: 30px !important;
+		display: block;
+		float: none;
+		margin: 5px 0;
+		padding: 0;
+	}
+	.slide-down{
+		width: 24px;
+		height: 15px;
+		background-size: cover;
+	}
+	p.text-ab{
+		width: 240px;
+		font-size: 14px;
+	}
+	.text-ab.active.our{
+		font-size: 20px;
+	}
+	.cbp-rfgrid.command > li{
+		width: calc(100%/2) !important;
+	}
+	.cbp-rfgrid.command figure > figcaption > h2 {
+	  font-size: 12px!important;
+	  line-height: 20px!important;
+	}
 }

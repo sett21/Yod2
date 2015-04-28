@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no">
 
 	<link rel="stylesheet" type="text/css" href="/themes/front/css/dist/style.min.css" />
+  <link rel="stylesheet" type="text/css" href="/themes/front/css/responsive/responsive.css" />
 	<!--[if IE]>
 	 		<link rel="stylesheet" type="text/css" href="/themes/front/css/style-ie.css" />
 	<![endif]-->
