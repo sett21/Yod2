@@ -18,9 +18,9 @@
   		background-position: center center;
 	}
 	nav.cl-effect-2 {
-	  width: 240px;
-	  margin-top: -125px;
-	  margin-left: -120px;
+	  width: 300px;
+	  margin-top: -130px;
+	  margin-left: -125px;
 	}
 	.os-phrases h2 {
 		font-size: 20px;
@@ -37,7 +37,13 @@
 		margin: 5px 0;
 		padding: 0;
 	}
-	.slide-down{
+	#additional-menu a#m4, #additional-menu a#m5, #main-menu a#m4, #main-menu a#m5{
+		font-size: 30px;
+		margin: 5px 0;
+		font-family: 'semibold';
+		padding: 0;
+	}
+	.slide-down, .triger-down{
 		width: 24px;
 		height: 15px;
 		background-size: cover;
@@ -66,11 +72,15 @@
 	.all-works a{
 		font-size: 14px;
 	}
-	.fp-controlArrow{
+	.fp-controlArrow, .icon-back{
 		background-size: cover;
 		width: 16px;
 		height: 27px;
 		margin-top: -13px;
+	}
+	.icon-back{
+		left: 15px;
+    	background: url(../../img/arrows-mob.png) no-repeat left center;
 	}
 	.fp-controlArrow.fp-prev {
     	left: 15px;
@@ -112,5 +122,35 @@
 		overflow: hidden;
 		width: 100%; /* Fallback */
 	}
-
+	.soc-but{
+		bottom: 10px;
+		right: 10px;
+	}
+	.capt{
+		font-size: 20px;
+	}
+	.information{
+		padding: 40px 20px;
+	}
+	.information h2{
+		font-size: 14px;
+	}
+	.information p{
+		font-size: 12px;
+	}
+	.port-container .cbp-rfgrid li .info{
+	   bottom: 100px; 
+	}
+	.cbp-rfgrid li .socials{
+	  left: 20px;
+	  top: 10px;
+	  z-index: 10;
+	}
+	figure.effect-honey figcaption::before,
+	figure.effect-honey h2,
+	figure.effect-honey h2 i {
+	  opacity: 1;
+	  -webkit-transform: translate3d(0,0,0);
+	  transform: translate3d(0,0,0);
+	}
 }

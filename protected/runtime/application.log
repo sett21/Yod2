@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2015/04/28 12:24:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
 Stack trace:
 #0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
@@ -2392,3 +2393,5 @@ Stack trace:
 REQUEST_URI=/design/%E2%80%B3http://swip.codylindley.com/jquery.popupWindow.js%E2%80%B3
 HTTP_REFERER=http://localhost/design/
 ---
+=======
+>>>>>>> 89236210e4cf6af66dc2cc829b9d3c7313988da8
