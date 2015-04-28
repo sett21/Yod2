@@ -106,5 +106,11 @@
 	.cnt-txt p{
 		font-size: 14px;
 	}
+	.cbp-rfgrid > li {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		width: 100%; /* Fallback */
+	}
 
 }
