@@ -61,4 +61,16 @@ and (-webkit-min-device-pixel-ratio: 1) {
     #fpreview{
         display: inline !important;
     }
+    .cbp-rfgrid li .socials{
+        left: 20px;
+        top: 10px;
+        z-index: 10;
+    }
+    figure.effect-honey figcaption::before,
+    figure.effect-honey h2,
+    figure.effect-honey h2 i {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
 }
