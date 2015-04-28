@@ -189,7 +189,8 @@
      */
     function changeHeightFolio(){
         var totalHeight = $(window).height();
-        var thisHeight =  totalHeight / 3;
+        var thisHeight;
+        $(window).width() > 768 ? thisHeight = totalHeight / 3 : thisHeight = totalHeight; 
         var liEl = $('.port-container .cbp-rfgrid > li');
         liEl.css('height', thisHeight);
     }
