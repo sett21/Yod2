@@ -91,12 +91,6 @@
 <!-- Элементы общие для всех страниц -->
 <button id="menu-trigger"></button>
 <?php echo $content; ?> 
-<!--[if IE]>
-	 		qweqqweqweqweqw
-	<![endif]-->
-
-<!--Include scripts -->
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script> <!-- 16 KB --> 
 <script src="/themes/front/js/jquery.easings.min.js"></script>
 <script src="/themes/front/js/owl.carousel.js"></script>

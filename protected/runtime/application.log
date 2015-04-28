@@ -2816,3 +2816,93 @@ Stack trace:
 REQUEST_URI=/themes/front/js/modernizr.custom.js
 HTTP_REFERER=http://yod.local:8888/architecture/
 ---
+2015/04/28 15:53:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/architecture/
+---
+2015/04/28 15:55:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/architecture/
+---
+2015/04/28 15:55:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/project/item/22
+---
+2015/04/28 15:55:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/architecture/
+---
+2015/04/28 15:55:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/architecture/
+---
+2015/04/28 16:14:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/architecture/
+---
+2015/04/28 16:16:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/28 16:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/28 16:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
+2015/04/28 16:50:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/alexandr/Sites/yod-prod/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/alexandr/Sites/yod-prod/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/alexandr/Sites/yod-prod/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://yod.local:8888/
+---
