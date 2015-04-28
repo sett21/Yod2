@@ -3,7 +3,7 @@
 <head>
     <title>YoDezeen - Portfolio | All projects</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
-
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="/themes/front/css/dist/style.min.css" />
      <link rel="stylesheet" type="text/css" href="/themes/front/css/responsive/responsive.css" />
   <link rel="stylesheet" type="text/css" href="/themes/front/css/responsive/responsive_tablet.css" />
