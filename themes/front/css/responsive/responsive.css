@@ -4,6 +4,16 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 	/* Styles*/
+	#trailer video{
+        display: none;
+        visibility: hidden;
+    }
+    #trailer{
+        background:url(../../video/mainpage.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
 	#menu-trigger {
   		display: block;
   		width: 40px;

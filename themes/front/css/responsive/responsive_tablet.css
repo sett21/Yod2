@@ -3,7 +3,16 @@
 and (min-device-width: 601px)
 and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 1) {
-    #main-menu a{
+    #trailer video{
+        display: none;
+        visibility: hidden;
+    }
+    #trailer{
+        background:url(../../video/mainpage.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+     #main-menu a{
         display: block;
         font-size: 34px !important;
         font-family: 'semibold' !important;
