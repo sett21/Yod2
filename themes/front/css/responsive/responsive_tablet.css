@@ -3,6 +3,33 @@
 and (min-device-width: 601px)
 and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 1) {
+    #main-menu a{
+        display: block;
+        font-size: 34px !important;
 
-    
+    }
+    .slide-down{
+        width: 34px;
+        height: 20px;
+        background-size: cover;
+    }
+    .fp-prev, .fp-next{
+        width: 25px;
+        height: 50px;
+        background-size: cover;
+    }
+    .os-phrases h2 {
+        font-size: 34px;
+    }
+    .anim-logo{
+        width: 330px;
+    }
+    p.text-ab, a.text-ab{
+        width: 400px;
+        font-size: 24px !important;
+    }
+    .fotorama__arr.fotorama__arr--prev, .fotorama__arr.fotorama__arr--next{
+        width: 25px !important;
+        height: 50px !important;
+    }
 }
