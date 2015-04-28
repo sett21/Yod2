@@ -3,7 +3,7 @@
 <head>
 	<title>Yodezeen - Portfolio | <?=$item['name']?></title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
-
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta property="og:site_name" content="Yodezeen" />
     <meta property="og:locale" content="ru_ru" />
     <meta property="og:type" content="article" />
