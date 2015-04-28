@@ -9,7 +9,9 @@ function changeHeightFolio(){
 }
 function changeHeightCommand(){
 	var totalHeight = $(window).height();
-	var thisHeight = totalHeight / 2; 
+	var thisHeight;
+	$(window).width() > 768 ? thisHeight = totalHeight / 2 : thisHeight = totalHeight;
+	console.log(thisHeight);
 	var liEl = $('.cbp-rfgrid.command > li');
 	liEl.css('height', thisHeight);
 }
