@@ -75,9 +75,9 @@
     </div>
 </div>
 <!-- ������ -->
-<div id="fullpage">
+<!-- <div id="fullpage"> -->
     <!-- �������� 3 -->
-    <div class="section best" id="page3">
+    <!-- <div class="section best" id="page3"> -->
         <div class="port-container">
             <ul class="cbp-rfgrid">
                 <?php if(is_array($architecture))
@@ -111,9 +111,9 @@
                     <?php } ?>
             </ul>
         </div>
-    </div>
+    <!-- </div> -->
     <!-- �������� 4 -->
-</div>
+<!-- </div> -->
 <!--Include scripts -->
 
 <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
@@ -199,36 +199,19 @@
     });
 
     $(document).ready(function(){
+        $('body').addClass('scroll');
         changeHeightFolio();
-
-        $('#fullpage').fullpage({
-            scrollOverflow: true,
-            css3: true,
-            scrollingSpeed: 300,
-            easingcss3: 'linear',
-            easing: 'linear',
-            navigationPosition: 'right',
-            menu: '#mainMenu',
-        });
-
-        /*
-         Navigation
-         */
-
         var mainMenuContainer = $('.nav'), menuTrigger = $('#menu-trigger');
         var trig = false;
-
         menuTrigger.on('click',function() {
             if (!trig){
                 $(this).addClass('active');
                 mainMenuContainer.addClass('active');
                 trig = true;
-                $.fn.fullpage.setAllowScrolling(false);
             } else {
                 $(this).removeClass('active');
                 mainMenuContainer.removeClass('active');
                 trig = false;
-                $.fn.fullpage.setAllowScrolling(true);
             }
         });
     });

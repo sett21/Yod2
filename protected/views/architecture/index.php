@@ -74,9 +74,9 @@
     </div>
 </div>
 <!-- ������ -->
-<div id="fullpage">
+<!-- <div id="fullpage"> -->
     <!-- �������� 3 -->
-    <div class="section best" id="page3">
+    <!-- <div class="section best" id="page3">s -->
         <div class="port-container">
             <ul class="cbp-rfgrid">
                 <?php if(is_array($architecture))
@@ -102,19 +102,13 @@
                                 <li class="pin">
                                     <a href="https://www.pinterest.com/pin/create/button/?url=http://yodezeen.net/project/item/<?=$item['id']?>&media=http://yodezeen.net/uploads/projects/<?=$item['img']?>&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin">PIN</a>
                                 </li>
-                                <!--<li class="inst"><a href="#">TW</a></li>-->
                             </ul>
                         </li>
-
-
                     <?php } ?>
             </ul>
-        </div>
-    </div>
-    <!-- �������� 4 -->
+<!--         </div>
+    </div> -->
 </div>
-
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 <script src="/themes/front/js/jq.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script> <!-- 16 KB -->
 <script src="/themes/front/js/jquery.easings.min.js"></script>
@@ -124,10 +118,8 @@
 <script type="text/javascript" src="/themes/front/js/jquery.slimscroll.min.js"></script>
 <script type="text/javascript" src="/themes/front/js/jquery.fullPage.min.js"></script>
 <script src="/themes/front/js/modernizr.custom.js"></script>
-
 <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
 <script src="/themes/front/js/modernizr.custom.menu.js"></script>
-<!--<script src="https://www.facebook.com/connect.php/js/FB.Share" type="text/javascript"></script>-->
 <script>
     Share = {
         vkontakte: function(purl, ptitle, pimg, text) {
@@ -194,38 +186,35 @@
     $(document).ready(function(){
         changeHeightFolio();
         
-        $('#fullpage').fullpage({
-            scrollOverflow: true,
-            css3: true,
-            scrollingSpeed: 300,
-            easingcss3: 'linear',
-            easing: 'linear',
-            navigationPosition: 'right',
-            menu: '#mainMenu',
-        });
+        // $('#fullpage').fullpage({
+        //     scrollOverflow: true,
+        //     css3: true,
+        //     scrollingSpeed: 300,
+        //     easingcss3: 'linear',
+        //     easing: 'linear',
+        //     navigationPosition: 'right',
+        //     menu: '#mainMenu',
+        // });
 
         /*
          Navigation
          */
-
         var mainMenuContainer = $('.nav'), menuTrigger = $('#menu-trigger');
         var trig = false;
-
         menuTrigger.on('click',function() {
             if (!trig){
                 $(this).addClass('active');
                 mainMenuContainer.addClass('active');
                 trig = true;
-                $.fn.fullpage.setAllowScrolling(false);
+                // $.fn.fullpage.setAllowScrolling(false);
             } else {
                 $(this).removeClass('active');
                 mainMenuContainer.removeClass('active');
                 trig = false;
-                $.fn.fullpage.setAllowScrolling(true);
+                // $.fn.fullpage.setAllowScrolling(true);
             }
         });
     });
-
     $(window).load(function () {
         $('.loading').slideUp(300);
         setTimeout(function(){
