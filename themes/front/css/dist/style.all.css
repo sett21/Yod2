@@ -298,7 +298,7 @@ nav a:focus {
 	transform: rotateX(90deg) translateY(-22px);
 }
 
-.no-touch .csstransforms3d .cl-effect-2 a:hover span:before,
+.csstransforms3d .cl-effect-2 a:hover span:before,
 .csstransforms3d .cl-effect-2 a:focus span:before {
 	background: #fff;	
 	color:black;
