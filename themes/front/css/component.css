@@ -237,7 +237,7 @@ nav a {
 	text-shadow: 0 0 1px rgba(255,255,255,0.8);
 }
 
-nav a:hover,
+.no-touch nav a:hover,
 nav a:focus {
 	outline: none;
 }
@@ -250,7 +250,7 @@ nav a:focus {
 	perspective: 1000px;
 	z-index: 1;
 }
-.cl-effect-2 a:hover{
+.no-touch .cl-effect-2 a:hover{
 	z-index: 2;
 }
 .cl-effect-2 a span {
@@ -291,14 +291,14 @@ nav a:focus {
 	opacity: 0;
 }
 
-.cl-effect-2 a:hover span,
+.no-touch .cl-effect-2 a:hover span,
 .cl-effect-2 a:focus span {
 	-webkit-transform: rotateX(90deg) translateY(-22px);
 	-moz-transform: rotateX(90deg) translateY(-22px);
 	transform: rotateX(90deg) translateY(-22px);
 }
 
-.csstransforms3d .cl-effect-2 a:hover span:before,
+.no-touch .csstransforms3d .cl-effect-2 a:hover span:before,
 .csstransforms3d .cl-effect-2 a:focus span:before {
 	background: #fff;	
 	color:black;
@@ -355,7 +355,7 @@ nav a:focus {
     opacity: 0;
 }
 
-.cbp-rfgrid li a:hover div {
+.no-touch .cbp-rfgrid li a:hover div {
 	opacity: 1;
 }
 

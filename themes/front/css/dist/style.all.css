@@ -237,7 +237,7 @@ nav a {
 	text-shadow: 0 0 1px rgba(255,255,255,0.8);
 }
 
-nav a:hover,
+.no-touch nav a:hover,
 nav a:focus {
 	outline: none;
 }
@@ -250,7 +250,7 @@ nav a:focus {
 	perspective: 1000px;
 	z-index: 1;
 }
-.cl-effect-2 a:hover{
+.no-touch .cl-effect-2 a:hover{
 	z-index: 2;
 }
 .cl-effect-2 a span {
@@ -291,14 +291,14 @@ nav a:focus {
 	opacity: 0;
 }
 
-.cl-effect-2 a:hover span,
+.no-touch .cl-effect-2 a:hover span,
 .cl-effect-2 a:focus span {
 	-webkit-transform: rotateX(90deg) translateY(-22px);
 	-moz-transform: rotateX(90deg) translateY(-22px);
 	transform: rotateX(90deg) translateY(-22px);
 }
 
-.csstransforms3d .cl-effect-2 a:hover span:before,
+.no-touch .csstransforms3d .cl-effect-2 a:hover span:before,
 .csstransforms3d .cl-effect-2 a:focus span:before {
 	background: #fff;	
 	color:black;
@@ -355,7 +355,7 @@ nav a:focus {
     opacity: 0;
 }
 
-.cbp-rfgrid li a:hover div {
+.no-touch .cbp-rfgrid li a:hover div {
 	opacity: 1;
 }
 
@@ -431,7 +431,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+.no-touch a:hover {
 	color: #fff;
 }
 
@@ -452,7 +452,7 @@ a:hover {
 	display: inline-block;
 }
 
-.codrops-top a:hover {
+.no-touch .codrops-top a:hover {
 	color: rgba(255,255,255,0.9);
 }
 
@@ -1273,7 +1273,7 @@ body {
   -webkit-transition: all 0.3s 0 ease-in-out;
   -o-transition: all 0.3s 0 ease-in-out;
 }
-.triger-down:hover, #menu-trigger:hover, .slide-down:hover, .fp-prev:hover, .fp-next:hover, .fotorama__arr--prev:hover, .fotorama__arr--next:hover{
+.no-touch .triger-down:hover, .no-touch #menu-trigger:hover, .no-touch .slide-down:hover, .no-touch .fp-prev:hover, .no-touch .fp-next:hover, .no-touch .fotorama__arr--prev:hover, .no-touch .fotorama__arr--next:hover{
     opacity: 0.6;
 } 
 #menu-trigger.active {
@@ -1281,7 +1281,7 @@ body {
   /**/
   opacity: 1;
 }
-#menu-trigger.active:hover {
+.no-touch #menu-trigger.active:hover {
   opacity: 0.6;
 }
 .nav {
@@ -1453,7 +1453,7 @@ p.text-ab, a.text-ab  {
   -webkit-transition: all 0.8s 0s ease-in-out;
   -o-transition: all 0.8s 0s ease-in-out;
 }
-a.text-ab:hover{
+.no-touch a.text-ab:hover{
   text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 .capt{
@@ -1578,11 +1578,11 @@ p.text-ab.active, a.text-ab.active{
 }
 
 
-.cbp-rfgrid li:hover .socials{
+.no-touch .cbp-rfgrid li:hover .socials{
   right: 20px;
   z-index: 10;
 }
-.port-container .cbp-rfgrid li:hover .info{
+.no-touch .port-container .cbp-rfgrid li:hover .info{
    bottom: 100px;
   
 }
@@ -1631,11 +1631,11 @@ p.text-ab.active, a.text-ab.active{
   -o-transition: all 0.3s 0s ease-in-out !important;
   border-radius: 4px !important;
 }
-.socials li a:hover{
+.no-touch .socials li a:hover{
   background-color: rgba(0,0,0,0.2);
     box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
 }
-.socials li.pin a:hover{
+.no-touch .socials li.pin a:hover{
     background-color: rgba(0,0,0,0.2)!important;
 }
 .socials li.fb a{
@@ -1705,7 +1705,7 @@ p.text-ab.active, a.text-ab.active{
     width: 600px;
     font-size: 35px;
   }
-  a.text-ab:hover {
+    .no-touch  a.text-ab:hover {
    text-shadow: 0px 0px 15px rgba(0,0,0,0.5);
   }
 
@@ -1774,7 +1774,7 @@ div.img, .slide-ow div.img{
   -o-transition: all 0.2s 0s ease-in-out;
 
 }
-.all-works a:hover{
+.no-touch .all-works a:hover{
   -moz-transform: scale(1.1,1.1); /* Для Firefox */
     -ms-transform: scale(1.1,1.1); /* Для IE */
     -webkit-transform: scale(1.1,1.1); /* Для Safari, Chrome, iOS */
@@ -1874,7 +1874,7 @@ div.img, .slide-ow div.img{
   opacity: 1;
   z-index: 2;
 }
-.icon-back:hover{
+.no-touch .icon-back:hover{
   opacity: 0.6;
 }
 .information{
@@ -1980,7 +1980,7 @@ figure.effect-honey img  {
   transition: opacity 0.35s;
 }
 
-figure.effect-honey:hover img {
+.no-touch figure.effect-honey:hover img {
   opacity: 0.5;
 }
 
@@ -2022,9 +2022,9 @@ figure.effect-honey h2 {
   transition: transform 0.35s;
 }
 
-figure.effect-honey:hover figcaption::before,
-figure.effect-honey:hover h2,
-figure.effect-honey:hover h2 i {
+.no-touch figure.effect-honey:hover figcaption::before,
+.no-touch figure.effect-honey:hover h2,
+.no-touch figure.effect-honey:hover h2 i {
   opacity: 1;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
@@ -2070,7 +2070,7 @@ figcaption{
   -moz-transition:opacity .3s 0 ease-in-out;
   -webkit-transition:opacity .3s 0 ease-in-out;
 }
-figcaption:hover{
+.no-touch figcaption:hover{
   opacity: 0.8;
 }
 .grid figure figcaption {
