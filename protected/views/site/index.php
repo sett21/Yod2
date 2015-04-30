@@ -102,7 +102,7 @@
 				</li>
 			<?php }?>
 			</ul>
-			<p class="text-ab our">&Oslash;UR TEAM</p>
+			<p class="text-ab our outm">&Oslash;UR TEAM</p>
 		</div>
 		<!-- <div class="mask"></div> -->
 	</div>

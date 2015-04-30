@@ -70,9 +70,6 @@ $(function (){
 		},
 
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
-			if(index == 2 && slideIndex == 2){
-				//$.fn.fullpage.setAllowScrolling(false);
-			}
 			if(index == 2 && slideIndex == 1){
 				setTimeout(function(){
 					$('.ourp').addClass('slowhide');				
@@ -81,6 +78,14 @@ $(function (){
 					$('.ourp').css('display', 'none');				
 				}, 5000);
 			}
+            if(index == 2 && slideIndex == 2){
+                setTimeout(function(){
+                    $('.outm').addClass('slowhide');
+                }, 2000);
+                setTimeout(function(){
+                    $('.outm').css('display', 'none');
+                }, 5000);
+            }
 		},
 		
         onSlideLeave: function(anchorLink, index, slideIndex, direction){
