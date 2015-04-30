@@ -48,8 +48,11 @@ and (orientation: landscape) {
     img.logo{
         width: 330px;
     }
+    p.text-ab{
+        z-index: 9999;
+    }
     p.text-ab, a.text-ab{
-        width: 400px;
+        width: 430px;
         font-size: 24px !important;
     }
     .fotorama__arr.fotorama__arr--next, .fotorama__arr.fotorama__arr--prev {
@@ -96,6 +99,7 @@ and (orientation: landscape) {
     }
     .cbp-rfgrid .portfol{
         height: 300px !important;
+        width: 50% !important;
     }
     #fpreview{
         display: inline !important;
