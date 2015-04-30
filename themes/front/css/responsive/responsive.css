@@ -90,6 +90,9 @@ and (orientation: landscape) {
     .cbp-rfgrid.command .grid{
         height: 430px !important;
     }
+    .cbp-rfgrid .portfol{
+        height: 300px !important;
+    }
     #fpreview{
         display: inline !important;
     }
