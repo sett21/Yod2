@@ -1,10 +1,9 @@
-@media only screen 
-  and (min-device-width: 320px)
-  and (max-device-width: 800px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-	/* Styles*/
-	#trailer video{
+/* Landscape */
+@media only screen
+and (min-device-width: 801px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    #trailer video{
         display: none;
         visibility: hidden;
     }
@@ -13,154 +12,311 @@
         background-size: cover;
         background-position: center center;
     }
+    #main-menu a{
+        display: block;
+        font-size: 34px !important;
+        font-family: 'semibold' !important;
+        float: none;
+        margin: 5px 0;
+        padding: 0;
+    }
+    .slide-down, .triger-down{
+        width: 30px;
+        height: 15px;
+        background-size: cover;
+    }
+    .fp-controlArrow, .icon-back{
+        width: 17px;
+        height: 34px;
+        background-size: cover;
+    }
+    .fp-controlArrow.fp-prev {
+        left: 10px;
+        background: url(../../img/arrows-mob.png) no-repeat left center;
+    }
+    .fp-controlArrow.fp-next {
+        right: 10px;
+        background: url(../../img/arrows-mob.png) no-repeat right center;
+    }
+    .os-phrases h2{
+        font-size: 34px;
+    }
+    img.logo{
+        width: 330px;
+    }
+    p.text-ab, a.text-ab{
+        width: 400px;
+        font-size: 24px !important;
+    }
+    .fotorama__arr.fotorama__arr--next, .fotorama__arr.fotorama__arr--prev {
+        width: 17px !important;
+        height: 34px !important;
+        cursor: pointer !important;
+    }
+    .fotorama__arr.fotorama__arr--next{
+        background: url(../../img/arrows-mob.png) no-repeat right center !important;
+    }
+    .fotorama__arr.fotorama__arr--prev{
+        background: url(../../img/arrows-mob.png) no-repeat left center !important;
+    }
+    .cnt-txt{
+        padding: 20px;
+    }
+    .cnt-txt h3{
+        font-size: 18px;
+    }
+    .cnt-txt p{
+        font-size: 16px;
+    }
+    nav.cl-effect-2{
+        width: 600px;
+        margin-left: -300px;
+    }
+    .cl-effect-2 a{
+        font-size: 40px !important;
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .cbp-rfgrid > li {
+        position: relative;
+        float: left;
+        overflow: hidden;
+        width: 50%;
+    }
+    .cbp-rfgrid.command > li {
+        width: calc(100% / 2) !important;
+    }
+    .cbp-rfgrid.command .grid{
+        height: 430px !important;
+    }
+    #fpreview{
+        display: inline !important;
+    }
+    .cbp-rfgrid li .socials{
+        left: 20px;
+        top: 10px;
+        z-index: 10;
+    }
+    figure.effect-honey figcaption::before {
+        height: 0;
+    }
 
-	#menu-trigger {
-  		display: block;
-  		width: 40px;
-  		height: 40px;
-  		top:10px;
-  		right: 10px;
-  		background-repeat: no-repeat;
-  		background-position: center center;
-	}
-	#menu-trigger.active{
-		background-repeat: no-repeat;
-  		background-position: center center;
-	}
-	nav.cl-effect-2 {
-	  width: 300px;
-	  margin-top: -130px;
-	  margin-left: -125px;
-	}
-	.os-phrases h2 {
-		font-size: 20px;
-		font-weight: 70;
-	}
-	img.logo{
-		width: 240px;
-	}
-	#main-menu a{
-		font-family: 'semibold' !important;
-		font-size: 30px !important;
-		display: block;
-		float: none;
-		margin: 5px 0;
-		padding: 0;
-	}
-	#additional-menu a#m4, #additional-menu a#m5, #main-menu a#m4, #main-menu a#m5{
-		font-size: 30px;
-		margin: 5px 0;
-		font-family: 'semibold';
-		padding: 0;
-	}
-	.slide-down, .triger-down{
-		width: 24px;
-		height: 15px;
-		background-size: cover;
-	}
-	p.text-ab{
-		width: 240px;
-		font-size: 14px;
-	}
-	.text-ab.active.our{
-		font-size: 20px;
-	}
-	.cbp-rfgrid.command > li{
-		width: calc(100%/2) !important;
-	}
-	.cbp-rfgrid.command figure > figcaption > h2 {
-	  font-size: 12px!important;
-	  line-height: 20px!important;
-	}
-	.slide-fr a.text-ab{
-		font-size: 16px;
-		margin-top: -8px;
-	}
-	.all-works {
-		bottom: 20px;
-	}
-	.all-works a{
-		font-size: 14px;
-	}
-	.fp-controlArrow, .icon-back{
-		background-size: cover;
-		width: 16px;
-		height: 27px;
-		margin-top: -13px;
-	}
-	.icon-back{
-		left: 15px;
-    	background: url(../../img/arrows-mob.png) no-repeat left center;
-	}
-	.fp-controlArrow.fp-prev {
-    	left: 15px;
-    	background: url(../../img/arrows-mob.png) no-repeat left center;
-	}
-	.fp-controlArrow.fp-next {
-	    right: 15px;
-	    background: url(../../img/arrows-mob.png) no-repeat right center;
-	}
-	.cs-owl-next, .cs-owl-prev, .fotorama__arr.fotorama__arr--next, .fotorama__arr.fotorama__arr--prev {
-	  position: absolute!important;
-	  z-index: 4!important;
-	  top: 50%!important;
-	  cursor: pointer!important;
-	  width: 16px!important;
-	  height: 27px!important;
-	  margin-top: -13px!important;
-	}
-	.cs-owl-prev, .fotorama__arr.fotorama__arr--prev{
-		left: 15px!important;
-    	background: url(../../img/arrows-mob.png) no-repeat left center!important;
-	}
-	.fotorama__arr.fotorama__arr--next {
-		right: 15px!important;
-		background: url(../../img/arrows-mob.png)right center no-repeat!important;
-	}
-	.cnt-txt{
-		padding: 20px 0 20px 25px;
-	}
-	.cnt-txt h3{
-		font-size: 16px;
-	}
-	.cnt-txt p{
-		font-size: 14px;
-	}
-	.cbp-rfgrid > li {
-		position: relative;
-		float: left;
-		overflow: hidden;
-		width: 100%; /* Fallback */
-	}
-	.soc-but{
-		bottom: 10px;
-		right: 10px;
-	}
-	.capt{
-		font-size: 20px;
-	}
-	.information{
-		padding: 40px 20px;
-	}
-	.information h2{
-		font-size: 14px;
-	}
-	.information p{
-		font-size: 12px;
-	}
-	.port-container .cbp-rfgrid li .info{
-	   bottom: 100px; 
-	}
-	.cbp-rfgrid li .socials{
-	  left: 20px;
-	  top: 10px;
-	  z-index: 10;
-	}
-	figure.effect-honey figcaption::before,
-	figure.effect-honey h2,
-	figure.effect-honey h2 i {
-	  opacity: 1;
-	  -webkit-transform: translate3d(0,0,0);
-	  transform: translate3d(0,0,0);
-	}
+    figure.effect-honey figcaption::before,
+    figure.effect-honey h2,
+    figure.effect-honey h2 i {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    .capt{
+        font-size: 30px;
+    }
+    .information{
+        padding: 30px 20px;
+    }
+    .information h2, .information p{
+        font-size: 20px;
+    }
 }
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 800px)
+  and (orientation: landscape) {
+    /* Styles*/
+    #trailer video {
+        display: none;
+        visibility: hidden;
+    }
+
+    #trailer {
+        background: url(../../video/mainpage.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #menu-trigger {
+        display: block;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        right: 10px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #menu-trigger.active {
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    nav.cl-effect-2 {
+        width: 300px;
+        margin-top: -130px;
+        margin-left: -125px;
+    }
+
+    .os-phrases h2 {
+        font-size: 20px;
+        font-weight: 70;
+    }
+
+    img.logo {
+        width: 240px;
+    }
+
+    #main-menu a {
+        font-family: 'semibold' !important;
+        font-size: 30px !important;
+        display: block;
+        float: none;
+        margin: 5px 0;
+        padding: 0;
+    }
+
+    #additional-menu a#m4, #additional-menu a#m5, #main-menu a#m4, #main-menu a#m5 {
+        font-size: 30px;
+        margin: 5px 0;
+        font-family: 'semibold';
+        padding: 0;
+    }
+
+    .slide-down, .triger-down {
+        width: 24px;
+        height: 15px;
+        background-size: cover;
+    }
+
+    p.text-ab {
+        width: 240px;
+        font-size: 14px;
+    }
+
+    .text-ab.active.our {
+        font-size: 20px;
+    }
+
+    .cbp-rfgrid.command > li {
+        width: calc(100% / 2) !important;
+    }
+
+    .cbp-rfgrid.command figure > figcaption > h2 {
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+
+    .slide-fr a.text-ab {
+        font-size: 16px;
+        margin-top: -8px;
+    }
+
+    .all-works {
+        bottom: 20px;
+    }
+
+    .all-works a {
+        font-size: 14px;
+    }
+
+    .fp-controlArrow, .icon-back {
+        background-size: cover;
+        width: 16px;
+        height: 27px;
+        margin-top: -13px;
+    }
+
+    .icon-back {
+        left: 15px;
+        background: url(../../img/arrows-mob.png) no-repeat left center;
+    }
+
+    .fp-controlArrow.fp-prev {
+        left: 15px;
+        background: url(../../img/arrows-mob.png) no-repeat left center;
+    }
+
+    .fp-controlArrow.fp-next {
+        right: 15px;
+        background: url(../../img/arrows-mob.png) no-repeat right center;
+    }
+
+    .cs-owl-next, .cs-owl-prev, .fotorama__arr.fotorama__arr--next, .fotorama__arr.fotorama__arr--prev {
+        position: absolute !important;
+        z-index: 4 !important;
+        top: 50% !important;
+        cursor: pointer !important;
+        width: 16px !important;
+        height: 27px !important;
+        margin-top: -13px !important;
+    }
+
+    .cs-owl-prev, .fotorama__arr.fotorama__arr--prev {
+        left: 15px !important;
+        background: url(../../img/arrows-mob.png) no-repeat left center !important;
+    }
+
+    .fotorama__arr.fotorama__arr--next {
+        right: 15px !important;
+        background: url(../../img/arrows-mob.png) right center no-repeat !important;
+    }
+    figure.effect-honey figcaption::before {
+        height: 0;
+    }
+    .cnt-txt {
+        padding: 20px 0 20px 25px;
+    }
+
+    .cnt-txt h3 {
+        font-size: 16px;
+    }
+
+    .cnt-txt p {
+        font-size: 14px;
+    }
+
+    .cbp-rfgrid > li {
+        position: relative;
+        float: left;
+        overflow: hidden;
+        width: 100%; /* Fallback */
+    }
+
+    .soc-but {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .capt {
+        font-size: 20px;
+    }
+
+    .information {
+        padding: 40px 20px;
+    }
+
+    .information h2 {
+        font-size: 14px;
+    }
+
+    .information p {
+        font-size: 12px;
+    }
+
+    .port-container .cbp-rfgrid li .info {
+        bottom: 100px;
+    }
+
+    .cbp-rfgrid li .socials {
+        left: 20px;
+        top: 10px;
+        z-index: 10;
+    }
+
+    figure.effect-honey figcaption::before,
+    figure.effect-honey h2,
+    figure.effect-honey h2 i {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+  }

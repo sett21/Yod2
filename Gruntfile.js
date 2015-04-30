@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: ['themes/front/css/*.css'],
-        dest: 'themes/front/css/dist/style.all.css',
+        dest: 'themes/front/css/dist/style.all.css'
       }
     },
 
