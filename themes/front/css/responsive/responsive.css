@@ -8,12 +8,11 @@ and (orientation: landscape) {
         visibility: hidden;
     }
     #trailer{
-        background:url(../../video/mainpage.jpg);
+        background:url(../../video/mainpage.jpg) center center;
         background-size: cover;
-        background-position: center center;
     }
     .nav{
-        z-index: 9999 !important;
+        z-index: 999 !important;
     }
 
     #main-menu a{
@@ -334,6 +333,6 @@ and (orientation: landscape) {
 
     }
     .nav{
-        z-index: 9999 !important;
+        z-index: 999 !important;
     }
   }

@@ -6690,3 +6690,336 @@ Stack trace:
 REQUEST_URI=/themes/front/js/modernizr.custom.js
 HTTP_REFERER=http://localhost/
 ---
+2015/04/30 15:34:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/
+---
+2015/04/30 15:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/
+---
+2015/04/30 15:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/30 15:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/30 15:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/
+---
+2015/04/30 15:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/
+---
+2015/04/30 15:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/04/30 15:35:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/
+---
+2015/04/30 15:35:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:52:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:52:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:52:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_54__DSC8829-2.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_54__DSC8829-2.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:52:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_928__DSC8936.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_928__DSC8936.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:52:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_325__DSC8910.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_325__DSC8910.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:52:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/projects/20150508_188_titul.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/project...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/projects/20150508_188_titul.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_54__DSC8829-2.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_54__DSC8829-2.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_325__DSC8910.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_325__DSC8910.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_928__DSC8936.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_928__DSC8936.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/projects/20150508_188_titul.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/project...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/projects/20150508_188_titul.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_54__DSC8829-2.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_54__DSC8829-2.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_325__DSC8910.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_325__DSC8910.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_928__DSC8936.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_928__DSC8936.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 11:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/projects/20150508_188_titul.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/project...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/projects/20150508_188_titul.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 12:00:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 12:00:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 12:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_54__DSC8829-2.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_54__DSC8829-2.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 12:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_325__DSC8910.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_325__DSC8910.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 12:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/team/20150506_928__DSC8936.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/team/20...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/team/20150506_928__DSC8936.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 12:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/projects/20150508_188_titul.jpg".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/project...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/projects/20150508_188_titul.jpg
+HTTP_REFERER=http://localhost/
+---
+2015/05/08 12:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/js/modernizr.custom.js".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/js...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/js/modernizr.custom.js
+HTTP_REFERER=http://localhost/architecture/
+---
+2015/05/08 12:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/architecture/
+---
+2015/05/08 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/front/css/responsive/responsive_tablet.css".' in /Users/user/Documents/Yod2/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/user/Documents/Yod2/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/front/cs...')
+#1 /Users/user/Documents/Yod2/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/user/Documents/Yod2/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/front/css/responsive/responsive_tablet.css
+HTTP_REFERER=http://localhost/architecture/
+---
